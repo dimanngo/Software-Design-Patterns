@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22512.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{FB4ECE07-0D99-42E9-A63E-9E10F4B83E3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{D1E92D9F-8C1A-450F-BC48-A88D7AC017B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethodPattern\FactoryMethod.csproj", "{6060AE43-61B2-4FF8-8DC4-3372C012C332}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern", "PrototypePattern\PrototypePattern.csproj", "{45913C08-74C0-463E-9B3F-F6856C40B628}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{51CD19FF-AC39-4FD7-BDFC-0F5B43630AF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB4ECE07-0D99-42E9-A63E-9E10F4B83E3A}.Debug|x86.ActiveCfg = Debug|x86
+		{FB4ECE07-0D99-42E9-A63E-9E10F4B83E3A}.Debug|x86.Build.0 = Debug|x86
+		{FB4ECE07-0D99-42E9-A63E-9E10F4B83E3A}.Release|x86.ActiveCfg = Release|x86
+		{FB4ECE07-0D99-42E9-A63E-9E10F4B83E3A}.Release|x86.Build.0 = Release|x86
+		{D1E92D9F-8C1A-450F-BC48-A88D7AC017B4}.Debug|x86.ActiveCfg = Debug|x86
+		{D1E92D9F-8C1A-450F-BC48-A88D7AC017B4}.Debug|x86.Build.0 = Debug|x86
+		{D1E92D9F-8C1A-450F-BC48-A88D7AC017B4}.Release|x86.ActiveCfg = Release|x86
+		{D1E92D9F-8C1A-450F-BC48-A88D7AC017B4}.Release|x86.Build.0 = Release|x86
+		{6060AE43-61B2-4FF8-8DC4-3372C012C332}.Debug|x86.ActiveCfg = Debug|x86
+		{6060AE43-61B2-4FF8-8DC4-3372C012C332}.Debug|x86.Build.0 = Debug|x86
+		{6060AE43-61B2-4FF8-8DC4-3372C012C332}.Release|x86.ActiveCfg = Release|x86
+		{6060AE43-61B2-4FF8-8DC4-3372C012C332}.Release|x86.Build.0 = Release|x86
+		{45913C08-74C0-463E-9B3F-F6856C40B628}.Debug|x86.ActiveCfg = Debug|x86
+		{45913C08-74C0-463E-9B3F-F6856C40B628}.Debug|x86.Build.0 = Debug|x86
+		{45913C08-74C0-463E-9B3F-F6856C40B628}.Release|x86.ActiveCfg = Release|x86
+		{45913C08-74C0-463E-9B3F-F6856C40B628}.Release|x86.Build.0 = Release|x86
+		{51CD19FF-AC39-4FD7-BDFC-0F5B43630AF6}.Debug|x86.ActiveCfg = Debug|x86
+		{51CD19FF-AC39-4FD7-BDFC-0F5B43630AF6}.Debug|x86.Build.0 = Debug|x86
+		{51CD19FF-AC39-4FD7-BDFC-0F5B43630AF6}.Release|x86.ActiveCfg = Release|x86
+		{51CD19FF-AC39-4FD7-BDFC-0F5B43630AF6}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dimagolodiuk.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AbstractFactoryPattern\\AbstractFactoryPattern.csproj
+		SccProjectName1 = AbstractFactoryPattern
+		SccLocalPath1 = AbstractFactoryPattern
+		SccProjectUniqueName2 = BuilderPattern\\BuilderPattern.csproj
+		SccProjectName2 = BuilderPattern
+		SccLocalPath2 = BuilderPattern
+		SccProjectUniqueName3 = FactoryMethodPattern\\FactoryMethod.csproj
+		SccProjectName3 = FactoryMethodPattern
+		SccLocalPath3 = FactoryMethodPattern
+		SccProjectUniqueName4 = PrototypePattern\\PrototypePattern.csproj
+		SccProjectName4 = PrototypePattern
+		SccLocalPath4 = PrototypePattern
+		SccProjectUniqueName5 = SingletonPattern\\SingletonPattern.csproj
+		SccProjectName5 = SingletonPattern
+		SccLocalPath5 = SingletonPattern
+	EndGlobalSection
+EndGlobal

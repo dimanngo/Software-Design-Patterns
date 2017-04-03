@@ -1,0 +1,121 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22512.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityPattern", "ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj", "{7B0A5378-A6B2-4E70-8092-5F7415D3B925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{DF37EBEE-4127-41CD-950B-C66452248FAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpreterPattern", "InterpreterPattern\InterpreterPattern.csproj", "{6DCFEC9E-D224-40C6-8B25-AE04DFF6B48D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "IteratorPattren\IteratorPattern.csproj", "{E3F765CB-0D00-4CC4-A2BA-F485EF27ADB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern", "MediatorPattern\MediatorPattern.csproj", "{251ED4EC-1EE5-4381-86B2-B058C9D299CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPattern", "MementoPattern\MementoPattern.csproj", "{B593F267-7CD7-4134-9CE0-8E7F97F352DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{68426E71-F69D-414F-8222-B3AF66C40DFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "StatePattern\StatePattern.csproj", "{5709C0A8-9F9B-40CE-8157-38DA822BD769}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{8C125B01-C996-4DD5-9A97-43267818C747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodPattern", "TemplatePattern\TemplateMethodPattern.csproj", "{43B02E22-AE63-419E-85A4-DC91B06A4C33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPattern", "VisitorPattern\VisitorPattern.csproj", "{402234DD-FD3F-46BC-9B75-8485961AE439}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B0A5378-A6B2-4E70-8092-5F7415D3B925}.Debug|x86.ActiveCfg = Debug|x86
+		{7B0A5378-A6B2-4E70-8092-5F7415D3B925}.Debug|x86.Build.0 = Debug|x86
+		{7B0A5378-A6B2-4E70-8092-5F7415D3B925}.Release|x86.ActiveCfg = Release|x86
+		{7B0A5378-A6B2-4E70-8092-5F7415D3B925}.Release|x86.Build.0 = Release|x86
+		{DF37EBEE-4127-41CD-950B-C66452248FAA}.Debug|x86.ActiveCfg = Debug|x86
+		{DF37EBEE-4127-41CD-950B-C66452248FAA}.Debug|x86.Build.0 = Debug|x86
+		{DF37EBEE-4127-41CD-950B-C66452248FAA}.Release|x86.ActiveCfg = Release|x86
+		{DF37EBEE-4127-41CD-950B-C66452248FAA}.Release|x86.Build.0 = Release|x86
+		{6DCFEC9E-D224-40C6-8B25-AE04DFF6B48D}.Debug|x86.ActiveCfg = Debug|x86
+		{6DCFEC9E-D224-40C6-8B25-AE04DFF6B48D}.Debug|x86.Build.0 = Debug|x86
+		{6DCFEC9E-D224-40C6-8B25-AE04DFF6B48D}.Release|x86.ActiveCfg = Release|x86
+		{6DCFEC9E-D224-40C6-8B25-AE04DFF6B48D}.Release|x86.Build.0 = Release|x86
+		{E3F765CB-0D00-4CC4-A2BA-F485EF27ADB0}.Debug|x86.ActiveCfg = Debug|x86
+		{E3F765CB-0D00-4CC4-A2BA-F485EF27ADB0}.Debug|x86.Build.0 = Debug|x86
+		{E3F765CB-0D00-4CC4-A2BA-F485EF27ADB0}.Release|x86.ActiveCfg = Release|x86
+		{E3F765CB-0D00-4CC4-A2BA-F485EF27ADB0}.Release|x86.Build.0 = Release|x86
+		{251ED4EC-1EE5-4381-86B2-B058C9D299CA}.Debug|x86.ActiveCfg = Debug|x86
+		{251ED4EC-1EE5-4381-86B2-B058C9D299CA}.Debug|x86.Build.0 = Debug|x86
+		{251ED4EC-1EE5-4381-86B2-B058C9D299CA}.Release|x86.ActiveCfg = Release|x86
+		{251ED4EC-1EE5-4381-86B2-B058C9D299CA}.Release|x86.Build.0 = Release|x86
+		{B593F267-7CD7-4134-9CE0-8E7F97F352DB}.Debug|x86.ActiveCfg = Debug|x86
+		{B593F267-7CD7-4134-9CE0-8E7F97F352DB}.Debug|x86.Build.0 = Debug|x86
+		{B593F267-7CD7-4134-9CE0-8E7F97F352DB}.Release|x86.ActiveCfg = Release|x86
+		{B593F267-7CD7-4134-9CE0-8E7F97F352DB}.Release|x86.Build.0 = Release|x86
+		{68426E71-F69D-414F-8222-B3AF66C40DFB}.Debug|x86.ActiveCfg = Debug|x86
+		{68426E71-F69D-414F-8222-B3AF66C40DFB}.Debug|x86.Build.0 = Debug|x86
+		{68426E71-F69D-414F-8222-B3AF66C40DFB}.Release|x86.ActiveCfg = Release|x86
+		{68426E71-F69D-414F-8222-B3AF66C40DFB}.Release|x86.Build.0 = Release|x86
+		{5709C0A8-9F9B-40CE-8157-38DA822BD769}.Debug|x86.ActiveCfg = Debug|x86
+		{5709C0A8-9F9B-40CE-8157-38DA822BD769}.Debug|x86.Build.0 = Debug|x86
+		{5709C0A8-9F9B-40CE-8157-38DA822BD769}.Release|x86.ActiveCfg = Release|x86
+		{5709C0A8-9F9B-40CE-8157-38DA822BD769}.Release|x86.Build.0 = Release|x86
+		{8C125B01-C996-4DD5-9A97-43267818C747}.Debug|x86.ActiveCfg = Debug|x86
+		{8C125B01-C996-4DD5-9A97-43267818C747}.Debug|x86.Build.0 = Debug|x86
+		{8C125B01-C996-4DD5-9A97-43267818C747}.Release|x86.ActiveCfg = Release|x86
+		{8C125B01-C996-4DD5-9A97-43267818C747}.Release|x86.Build.0 = Release|x86
+		{43B02E22-AE63-419E-85A4-DC91B06A4C33}.Debug|x86.ActiveCfg = Debug|x86
+		{43B02E22-AE63-419E-85A4-DC91B06A4C33}.Debug|x86.Build.0 = Debug|x86
+		{43B02E22-AE63-419E-85A4-DC91B06A4C33}.Release|x86.ActiveCfg = Release|x86
+		{43B02E22-AE63-419E-85A4-DC91B06A4C33}.Release|x86.Build.0 = Release|x86
+		{402234DD-FD3F-46BC-9B75-8485961AE439}.Debug|x86.ActiveCfg = Debug|x86
+		{402234DD-FD3F-46BC-9B75-8485961AE439}.Debug|x86.Build.0 = Debug|x86
+		{402234DD-FD3F-46BC-9B75-8485961AE439}.Release|x86.ActiveCfg = Release|x86
+		{402234DD-FD3F-46BC-9B75-8485961AE439}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dimagolodiuk.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ChainOfResponsibilityPattern\\ChainOfResponsibilityPattern.csproj
+		SccProjectName1 = ChainOfResponsibilityPattern
+		SccLocalPath1 = ChainOfResponsibilityPattern
+		SccProjectUniqueName2 = CommandPattern\\CommandPattern.csproj
+		SccProjectName2 = CommandPattern
+		SccLocalPath2 = CommandPattern
+		SccProjectUniqueName3 = InterpreterPattern\\InterpreterPattern.csproj
+		SccProjectName3 = InterpreterPattern
+		SccLocalPath3 = InterpreterPattern
+		SccProjectUniqueName4 = IteratorPattren\\IteratorPattern.csproj
+		SccProjectName4 = IteratorPattren
+		SccLocalPath4 = IteratorPattren
+		SccProjectUniqueName5 = MediatorPattern\\MediatorPattern.csproj
+		SccProjectName5 = MediatorPattern
+		SccLocalPath5 = MediatorPattern
+		SccProjectUniqueName6 = MementoPattern\\MementoPattern.csproj
+		SccProjectName6 = MementoPattern
+		SccLocalPath6 = MementoPattern
+		SccProjectUniqueName7 = ObserverPattern\\ObserverPattern.csproj
+		SccProjectName7 = ObserverPattern
+		SccLocalPath7 = ObserverPattern
+		SccProjectUniqueName8 = StatePattern\\StatePattern.csproj
+		SccProjectName8 = StatePattern
+		SccLocalPath8 = StatePattern
+		SccProjectUniqueName9 = StrategyPattern\\StrategyPattern.csproj
+		SccProjectName9 = StrategyPattern
+		SccLocalPath9 = StrategyPattern
+		SccProjectUniqueName10 = TemplatePattern\\TemplateMethodPattern.csproj
+		SccProjectName10 = TemplatePattern
+		SccLocalPath10 = TemplatePattern
+		SccProjectUniqueName11 = VisitorPattern\\VisitorPattern.csproj
+		SccProjectName11 = VisitorPattern
+		SccLocalPath11 = VisitorPattern
+	EndGlobalSection
+EndGlobal

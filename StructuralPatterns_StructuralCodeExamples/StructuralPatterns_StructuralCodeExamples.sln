@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22512.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{4EC4023A-FD50-4D96-A874-3FE78FC12374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{BAFB19BB-5467-4E9C-A6B9-8B0E0DB43046}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{7539B299-3B20-40DC-BD66-5B2C93CECC54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{0DED77C1-6CB7-4D63-B7DB-7AC39DAF6FE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern", "FacadePattern\FacadePattern.csproj", "{802629CC-6983-4827-AE2C-E98FD454AAB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyweightPattern", "FlyweightPattern\FlyweightPattern.csproj", "{493835AE-B81B-466A-9EE1-AE1649944F9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{2BDCC846-9BA5-41E4-B890-E608B970FD53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EC4023A-FD50-4D96-A874-3FE78FC12374}.Debug|x86.ActiveCfg = Debug|x86
+		{4EC4023A-FD50-4D96-A874-3FE78FC12374}.Debug|x86.Build.0 = Debug|x86
+		{4EC4023A-FD50-4D96-A874-3FE78FC12374}.Release|x86.ActiveCfg = Release|x86
+		{4EC4023A-FD50-4D96-A874-3FE78FC12374}.Release|x86.Build.0 = Release|x86
+		{BAFB19BB-5467-4E9C-A6B9-8B0E0DB43046}.Debug|x86.ActiveCfg = Debug|x86
+		{BAFB19BB-5467-4E9C-A6B9-8B0E0DB43046}.Debug|x86.Build.0 = Debug|x86
+		{BAFB19BB-5467-4E9C-A6B9-8B0E0DB43046}.Release|x86.ActiveCfg = Release|x86
+		{BAFB19BB-5467-4E9C-A6B9-8B0E0DB43046}.Release|x86.Build.0 = Release|x86
+		{7539B299-3B20-40DC-BD66-5B2C93CECC54}.Debug|x86.ActiveCfg = Debug|x86
+		{7539B299-3B20-40DC-BD66-5B2C93CECC54}.Debug|x86.Build.0 = Debug|x86
+		{7539B299-3B20-40DC-BD66-5B2C93CECC54}.Release|x86.ActiveCfg = Release|x86
+		{7539B299-3B20-40DC-BD66-5B2C93CECC54}.Release|x86.Build.0 = Release|x86
+		{0DED77C1-6CB7-4D63-B7DB-7AC39DAF6FE4}.Debug|x86.ActiveCfg = Debug|x86
+		{0DED77C1-6CB7-4D63-B7DB-7AC39DAF6FE4}.Debug|x86.Build.0 = Debug|x86
+		{0DED77C1-6CB7-4D63-B7DB-7AC39DAF6FE4}.Release|x86.ActiveCfg = Release|x86
+		{0DED77C1-6CB7-4D63-B7DB-7AC39DAF6FE4}.Release|x86.Build.0 = Release|x86
+		{802629CC-6983-4827-AE2C-E98FD454AAB9}.Debug|x86.ActiveCfg = Debug|x86
+		{802629CC-6983-4827-AE2C-E98FD454AAB9}.Debug|x86.Build.0 = Debug|x86
+		{802629CC-6983-4827-AE2C-E98FD454AAB9}.Release|x86.ActiveCfg = Release|x86
+		{802629CC-6983-4827-AE2C-E98FD454AAB9}.Release|x86.Build.0 = Release|x86
+		{493835AE-B81B-466A-9EE1-AE1649944F9B}.Debug|x86.ActiveCfg = Debug|x86
+		{493835AE-B81B-466A-9EE1-AE1649944F9B}.Debug|x86.Build.0 = Debug|x86
+		{493835AE-B81B-466A-9EE1-AE1649944F9B}.Release|x86.ActiveCfg = Release|x86
+		{493835AE-B81B-466A-9EE1-AE1649944F9B}.Release|x86.Build.0 = Release|x86
+		{2BDCC846-9BA5-41E4-B890-E608B970FD53}.Debug|x86.ActiveCfg = Debug|x86
+		{2BDCC846-9BA5-41E4-B890-E608B970FD53}.Debug|x86.Build.0 = Debug|x86
+		{2BDCC846-9BA5-41E4-B890-E608B970FD53}.Release|x86.ActiveCfg = Release|x86
+		{2BDCC846-9BA5-41E4-B890-E608B970FD53}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dimagolodiuk.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AdapterPattern\\AdapterPattern.csproj
+		SccProjectName1 = AdapterPattern
+		SccLocalPath1 = AdapterPattern
+		SccProjectUniqueName2 = BridgePattern\\BridgePattern.csproj
+		SccProjectName2 = BridgePattern
+		SccLocalPath2 = BridgePattern
+		SccProjectUniqueName3 = CompositePattern\\CompositePattern.csproj
+		SccProjectName3 = CompositePattern
+		SccLocalPath3 = CompositePattern
+		SccProjectUniqueName4 = DecoratorPattern\\DecoratorPattern.csproj
+		SccProjectName4 = DecoratorPattern
+		SccLocalPath4 = DecoratorPattern
+		SccProjectUniqueName5 = FacadePattern\\FacadePattern.csproj
+		SccProjectName5 = FacadePattern
+		SccLocalPath5 = FacadePattern
+		SccProjectUniqueName6 = FlyweightPattern\\FlyweightPattern.csproj
+		SccProjectName6 = FlyweightPattern
+		SccLocalPath6 = FlyweightPattern
+		SccProjectUniqueName7 = ProxyPattern\\ProxyPattern.csproj
+		SccProjectName7 = ProxyPattern
+		SccLocalPath7 = ProxyPattern
+	EndGlobalSection
+EndGlobal
