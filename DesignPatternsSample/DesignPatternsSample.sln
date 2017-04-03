@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorSampleApp", "Decor
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton Design Pattern", "Singleton Design Pattern", "{1510FF04-588B-4374-8640-D5BB99C70066}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonStandard", "SingletonStandard\SingletonStandard.csproj", "{83A033AC-5035-4A26-A7CB-DE72E618BC8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonStandard", "Singleton Design Pattern\SingletonStandard\SingletonStandard.csproj", "{83A033AC-5035-4A26-A7CB-DE72E618BC8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
