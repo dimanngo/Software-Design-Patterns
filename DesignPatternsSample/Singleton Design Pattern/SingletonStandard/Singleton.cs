@@ -12,6 +12,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Standard
@@ -19,8 +20,17 @@ namespace Standard
     public class Singleton
     {
         private static Singleton instance;
+        public static int countInstances = 0;
 
-        private Singleton() { }
+        private Singleton()
+        {
+            Interlocked.Increment(ref countInstances);
+        }
+
+        ~Singleton()
+        {
+            Interlocked.Decrement(ref countInstances);
+        }
 
         public static Singleton GetInstance()
         {
