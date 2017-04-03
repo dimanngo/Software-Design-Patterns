@@ -1,0 +1,2032 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="b814a201-3f86-41aa-8321-357dfece6332"
+  name="Widgets"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="c7ad2cbf-39c1-4ce1-b900-d9cd22fd3daf"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DObserverSampleApp.Widgets"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="5f7046db-f8d1-469c-a836-62a9776c63f8"
+        name="IObserver"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="8a87f889-7db7-48e7-b47f-9cc8a99d15c2"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DIObserver"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="63920225-8345-44af-b672-50fe4c217a11"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a6e74901-63cc-46b8-85b0-579883485bed">
+                <propertyInstance
+                  Id="8b4e8108-942c-436c-abed-8e6c0dcd84bd"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bbffc07c-275c-4622-877e-f77a7d031dee">
+                <propertyInstance
+                  Id="95066e26-71bd-415f-9e4f-901937fce170"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c63f421a-a148-4e4d-a03d-c14e7ebec35b">
+                <propertyInstance
+                  Id="c9cea668-774f-4fe4-98d6-e1fe07bbdfe8"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f258e9e6-d7c4-4e06-95ab-97d3aa201a71">
+                <propertyInstance
+                  Id="21132aeb-90fc-41fe-bdcb-c2eecc4cacd7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="b677b442-ec5a-46ce-bcf7-fba1a8b7f33b"
+            name="Update"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="359ccb5e-449e-4b6e-90c5-a1aa0d94ba8a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DIObserver Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e39fafee-bd1e-4a59-9c06-c3795db1082f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0fa6ff1b-2506-49af-8735-0a37b2675e81">
+                    <propertyInstance
+                      Id="e6e849a0-53cc-4ca9-a5f3-8e5fe01d42fd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88d06512-b31a-4d81-bbc7-c7cce4fea5e2">
+                    <propertyInstance
+                      Id="c7d02240-56fd-4502-a9c9-0d4db5950045"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e462bf2b-fec6-46e3-a363-b83592c19f63">
+                    <propertyInstance
+                      Id="4d50578f-524a-451b-ad6a-adea61481f62"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95b36387-359c-463b-8dac-f5a7e131740b">
+                    <propertyInstance
+                      Id="de101509-76cd-4069-b038-8b4f0ce2f909"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c35a7c7-d3d4-4a32-ab9b-fb24c871e240">
+                    <propertyInstance
+                      Id="b95fbcfd-50b4-41d3-be7d-ae2fd52cbcec"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eefde1fd-1d8b-4945-93fc-8200adfb4ac7">
+                    <propertyInstance
+                      Id="022ddc50-4e63-4aee-8645-2ffa36a77ba7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8079a8c5-31e5-490d-bae4-500ca1a4a9af"
+                  name="twitter"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="446ef853-ed02-445a-9dc2-1a2c1362a8ca"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DIObserver Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dtwitter"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e8a7169a-1949-4d21-81d2-f1b2564345d5"
+                  name="lenta"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="24e1ad2f-07d3-401f-b64b-4a99f0224eaf"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DIObserver Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dlenta"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="596a8796-42cf-4917-a08d-07fc42c8f4e4"
+                  name="tv"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3406ebbf-872f-4301-a7f1-20a3a4355469"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DIObserver Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dtv"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c525c30e-0005-43f6-9760-9d9f6dfa0756"
+            name="Unsubscribe"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1f467c68-7ae1-4f59-8cd7-39587183f020"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DIObserver Member%3DUnsubscribe"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d7d83057-2882-4244-9244-d9395728aff3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eaa63d36-7282-4c65-8c6f-452e7e3f6afb">
+                    <propertyInstance
+                      Id="1e7bee62-42e7-40cf-a4a6-df3fbe9461b5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0775dba7-2dde-4367-b6d5-55f4212aa696">
+                    <propertyInstance
+                      Id="eb5531df-2029-48a5-af68-e850720b0ed8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="862e1f02-9fd7-4aaf-ac3b-0ab79e797276">
+                    <propertyInstance
+                      Id="1e036632-dde0-4346-9eb0-72e35346c48f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51101eff-38ea-4150-9cd7-353500c43d3c">
+                    <propertyInstance
+                      Id="87aa204f-e0bf-46ad-9ad8-43bce35e0921"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c1b8448-9ce0-4c46-93ac-142924a8152a">
+                    <propertyInstance
+                      Id="55087962-bced-4f95-b587-89a27da0906f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d310c2bc-b156-4733-8d15-4dc37cb875c8">
+                    <propertyInstance
+                      Id="801acd38-ec9e-4fbc-966e-56a08782f582"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="e9205bb2-1e34-4e0d-bc54-1792e264364b"
+        name="IWidget"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="f68ff026-294c-42d5-bca6-3e2b5da9a0f9"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp_Events%2Fbin%2FDebug%2FObserverSampleApp_Events.exe Namespace%3DObserverSampleApp.Widgets Type%3DIWidget"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="875d7868-a5d8-4efd-92db-a030cfc9fe94"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3493d7f7-2c4f-4a28-9001-e608ffa950c7">
+                <propertyInstance
+                  Id="5cb5783e-e93a-4ff0-a8b0-38aaff21bce0"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7e2208bc-c106-46f5-907b-93083cc92541">
+                <propertyInstance
+                  Id="54ce3aa2-ad31-4954-858a-2a8ba8cd1c68"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5d97d31b-b0db-49ee-9eda-b046d69fe9c3">
+                <propertyInstance
+                  Id="f6efa070-19c8-40e8-af11-75dcb439db43"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="97f6952f-4302-4cf6-81df-56af92a7d20e">
+                <propertyInstance
+                  Id="4433577f-a9a6-426d-9705-7a507789d0ff"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="5102cfde-607e-4847-bd99-55a9d0baf4a4"
+            name="Display"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="746b956e-783f-4a66-947e-60c7a81ee6ec"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp_Events%2Fbin%2FDebug%2FObserverSampleApp_Events.exe Namespace%3DObserverSampleApp.Widgets Type%3DIWidget Member%3DDisplay"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3b20ef3f-cc0e-4773-abab-1c17da63ea71"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="25cd1e68-ce21-48dd-9eb3-22ee116410ca">
+                    <propertyInstance
+                      Id="498abce6-5723-4381-a9ff-d4330e872836"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a82c298-f5e1-4704-aec4-c9307076103c">
+                    <propertyInstance
+                      Id="9c86bca0-13a6-4959-8c72-130f56291137"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="174c8ee0-7788-4e49-b43e-7250e138cac9">
+                    <propertyInstance
+                      Id="2bedc582-6431-4c42-91b2-51d8e29e7a5a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33f9cbd1-dd1d-4cf1-8a18-be4694e7953b">
+                    <propertyInstance
+                      Id="c548a376-1068-4496-be48-9330a79586e6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f5f72e3-31d5-4543-9054-8f55668f135b">
+                    <propertyInstance
+                      Id="b3b5a135-fd3b-4c4f-8064-0adfe6d3d2a2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="06c98585-8259-4554-ba7c-3d85265e6132">
+                    <propertyInstance
+                      Id="2f14480f-a3fb-47c7-ab58-6c01cc500e17"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0eccaec3-abaa-4562-b6e7-22d6158d69da"
+        name="LentaWidget"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e72273bf-6446-47ef-93b9-de337ebed32f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DLentaWidget"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="eca1be19-ffa1-4d9a-9a19-b9329644780e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cfdae86b-ec17-4808-ada9-19b20c1c2897">
+                <propertyInstance
+                  Id="65fa1f93-2f32-402c-9dad-7873da6e33a3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6f0d1721-d2d8-4deb-b52e-e361266e2499">
+                <propertyInstance
+                  Id="97cda642-c1e6-492c-8b2b-576940ecd824"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ff3d973d-c9f9-49a1-b8a4-b4120c8ac292">
+                <propertyInstance
+                  Id="cc263da6-9d48-4c35-be7e-06bc74845818"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3f5f8627-de49-4229-9633-f312c75f6cda">
+                <propertyInstance
+                  Id="ecc4c69e-7b68-4ce5-8027-837fd007a3d1"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ad57cb1b-f542-4056-a812-d684054c5719">
+                <propertyInstance
+                  Id="08fc64ab-a7ba-439a-8647-a281660af545"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="d4fdbf2f-a810-4c6d-87b7-db46629f002f">
+            <interfaceMoniker
+              Id="5f7046db-f8d1-469c-a836-62a9776c63f8"
+              LastKnownName="IObserver"
+              LastKnownLocation="Package2_2021.uml" />
+          </interfaceRealization>
+          <interfaceRealization
+            Id="edc7378d-1a48-4618-9928-997d88fa3b9a">
+            <interfaceMoniker
+              Id="e9205bb2-1e34-4e0d-bc54-1792e264364b"
+              LastKnownName="IWidget"
+              LastKnownLocation="Package2_2021.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="6846f94a-17ea-4d70-aed5-cff04f98c9f3"
+            name="_lenta"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="24b9ff57-0ca8-476d-8336-fe067cc83b03"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DLentaWidget Member%3D_lenta"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="30f45ba8-e49f-49c3-bb2f-56491688b120"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8bc7502e-6fd0-46c2-ac45-d1f9eb01aaf1">
+                    <propertyInstance
+                      Id="6bc5eb6a-9b86-49f4-81e1-53dc489232db"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7faab938-0a3f-41c8-bfe9-ad2abcaf65c7">
+                    <propertyInstance
+                      Id="a031674e-9123-401e-ae76-31bb3fad75be"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52a15b13-3991-4c3c-8353-004596b48c86">
+                    <propertyInstance
+                      Id="7121cf5d-e76c-43d2-8079-6f8c3e146c72"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="355a8625-b2aa-4f05-9801-88a187c8100b">
+                    <propertyInstance
+                      Id="d3cf2f97-a554-4f00-a8b4-d20e2e2f4264"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba8f325b-c694-4cee-b13f-ab5956999607">
+                    <propertyInstance
+                      Id="fa7194ed-6194-4976-a876-ea1bbdf5a17a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="dc71d4e7-b862-427c-a8a3-c5e8a0c2c0ea"
+            name="_subject"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9fa51972-1fb3-4e69-a600-624696e0a0b6"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DLentaWidget Member%3D_subject"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="33852483-2b59-4863-b626-455735f13bce"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60b3a262-c9e6-4a36-a8bb-adbf574b2493">
+                    <propertyInstance
+                      Id="81af9f0d-c863-4e5c-a052-f1417d445a33"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6630a76f-c03f-49e7-a248-81d65afb685c">
+                    <propertyInstance
+                      Id="c645802c-54a6-4a00-bb61-d1da954db7dc"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2cf85c77-403e-4501-aeaf-8fd26893a291">
+                    <propertyInstance
+                      Id="607f123d-22d5-4973-b1ff-39e2832e9f93"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3e60998-5024-40cd-8f75-64b0f60df893">
+                    <propertyInstance
+                      Id="8cad0d5e-70c9-44f1-837e-d7d5312e499a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="698341aa-ae63-4476-8006-a0ffae4d72fc">
+                    <propertyInstance
+                      Id="2fe5c5ad-defb-433a-8d9a-8ad772ff9a55"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="929d5165-151b-4261-8b7a-a889d0954b8f"
+                LastKnownName="ISubject"
+                LastKnownLocation="Package1_2021.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="e15b5abd-27ba-43f1-9196-9d9521dfe909"
+            name="LentaWidget"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2bec4d20-f4a2-412f-9eaf-774cd40d8b0e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DLentaWidget Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.News Type%3DISubject)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fe78d1a9-e808-4066-917d-75f1d9d35b7b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d26450c-8a0a-45d2-80f1-a1b4d1610d32">
+                    <propertyInstance
+                      Id="69a9c486-287f-44dc-8b54-95d5c9c5ce80"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa657b88-d663-4da3-b32d-1a03ded0bc17">
+                    <propertyInstance
+                      Id="3ec732d8-c2c1-4c9d-a71d-41aa8db78daa"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d003724-7739-44b8-8a3f-a86f203ad0bd">
+                    <propertyInstance
+                      Id="e4445816-686c-4d5c-8584-e06815e7b490"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9bb0374-0e64-467a-b138-b91bf2169c7a">
+                    <propertyInstance
+                      Id="0c9d3656-46b9-4080-9bce-96c3717b4638"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dee2af9d-34fb-47da-ab52-8e644edd1876">
+                    <propertyInstance
+                      Id="97ef9570-a0ac-419f-9279-95b47dd408ed"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21ce10e0-a1b7-4ad7-baaa-2d8ad328960f">
+                    <propertyInstance
+                      Id="0fff7560-f6e9-40e3-844b-66d6946ba762"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1cf8a3e1-d11b-40a9-a0fc-b4db6a0b57fb"
+                  name="subject"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="fdd7caec-7852-48d3-8f71-edc93d82e999"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DLentaWidget Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.News Type%3DISubject)]) ParameterIdentifier%3Dsubject"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="929d5165-151b-4261-8b7a-a889d0954b8f"
+                      LastKnownName="ISubject"
+                      LastKnownLocation="Package1_2021.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1c143d6d-2d97-4c91-9a4f-bab56f5d9e9e"
+            name="Update"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="617eaa8e-9159-4330-b79b-905c21df6cf8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DLentaWidget Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d6342af8-3b1d-476f-b43d-fe9eece93490"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3c62512-98f7-45a8-a0cf-f25aca06945e">
+                    <propertyInstance
+                      Id="f7d61dc8-70f7-4377-813f-c343e853fa0e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f91fc11-3d0e-4701-815b-2c1e18f8246b">
+                    <propertyInstance
+                      Id="0958569a-4f3d-4c97-b050-126d51b53854"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d4f389d-c082-4213-a41a-14c26772d901">
+                    <propertyInstance
+                      Id="0086d5f5-99c1-4035-9e71-5af29d5374b4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="670b0284-8586-440b-afad-f13b874cdea3">
+                    <propertyInstance
+                      Id="3e0249c4-5399-4a1e-aa4f-2bd65d0518d9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64cb677e-8989-4bda-818a-066590d683c5">
+                    <propertyInstance
+                      Id="1f860e0c-d6f6-4065-b983-7f3469574320"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="47f39d9b-6bd1-4251-8987-287dd55b8363">
+                    <propertyInstance
+                      Id="be7566c4-36b4-4c45-8342-886c6665576c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e89e5286-f0cb-421d-9550-6730f7ddcbe2"
+                  name="twitter"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="db9dfce8-650b-4a7e-aa92-854de254028f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DLentaWidget Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dtwitter"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="146ffc86-8565-45ce-8b36-005de35440ad"
+                  name="lenta"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f7d64439-df50-43f5-b0dc-fd4b55bfc5e1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DLentaWidget Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dlenta"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="518de1c8-4b24-4e2d-bd68-26db68803c82"
+                  name="tv"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0fbb45c3-4eef-4195-ad44-7c7a06b1b9dd"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DLentaWidget Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dtv"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e8c396fd-6a35-4416-a016-064a262ae9b7"
+            name="Unsubscribe"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6d13a14b-fc61-41ee-a79d-595c188b17cf"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DLentaWidget Member%3DUnsubscribe"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3d716082-feef-400b-8ecf-4bfd8005b48c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c2980d49-c5b2-4f37-80da-9c095060c459">
+                    <propertyInstance
+                      Id="6d817aea-4a65-4eb5-bd1c-6bb49001e8cf"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc7ffde2-df3f-4e0d-aeb8-828b164a7f20">
+                    <propertyInstance
+                      Id="bd0f5445-105a-4e99-b397-c7883d1b9b45"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0bb25e2-4b06-45a3-9970-3a9b328ebedf">
+                    <propertyInstance
+                      Id="d71dd432-5b8d-494e-b5e3-a7eaa0041dca"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16c3091d-4e73-47dd-9143-1845ded6bcf9">
+                    <propertyInstance
+                      Id="0668e661-0f80-44a7-90b0-8dcf97b27e80"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d287ce7f-98f1-45dd-919e-d7e94601df98">
+                    <propertyInstance
+                      Id="e345965d-2412-4ee8-b7b6-aedd987bc139"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d7af4c9-b007-4030-9014-6d1d10235c93">
+                    <propertyInstance
+                      Id="80a28462-8123-4646-adbe-543127759123"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="06dcb232-f1e7-4639-9d29-6c8f838ec425"
+            name="Display"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b34f756d-476b-460a-9664-f2261f1e9424"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DLentaWidget Member%3DDisplay"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="693754c1-c93c-485d-805c-695452470782"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0326b60a-d750-4072-84b8-406f030a7fd1">
+                    <propertyInstance
+                      Id="047a4ef8-12f1-4caa-8124-5b410e20a3b0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dfb404ea-aafc-4f67-96fa-9b783212cbc5">
+                    <propertyInstance
+                      Id="6a23ad47-5fcc-4562-9244-d1d4d438884e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b95c391f-15ef-4408-b36b-eb8871e610af">
+                    <propertyInstance
+                      Id="b485b1c0-81bd-4d42-83be-f06da4899e80"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c4eed2a-4c0d-4e5f-8583-6e713520b3b5">
+                    <propertyInstance
+                      Id="1afe4587-8b76-46fb-8749-abecaa24663d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e07ae599-76a4-4c55-b21d-ef134cc531ad">
+                    <propertyInstance
+                      Id="891a7cab-1748-46a6-b30a-36d0cb49a84b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="445de004-0ff0-4f59-82f5-6159f8b0cb47">
+                    <propertyInstance
+                      Id="5b26568b-eab5-462b-a6cd-06223b333968"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="63175b28-7a5c-4cc2-a354-c582b5d98d3f"
+        name="TvWidget"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5e484133-fc67-4cd8-9109-36837450f432"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DTvWidget"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="62e260f5-7b07-4afe-b26f-09b295435744"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="31d4f183-f655-45bb-b2cd-fbf3ed3ec71a">
+                <propertyInstance
+                  Id="da1fe700-7aeb-4dc1-8423-05f30546998d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="88d2935e-593f-403a-8664-bd1f02966dce">
+                <propertyInstance
+                  Id="133e3cb5-a7ba-4140-9eeb-002476fe564c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1beb1a1f-0f73-4253-8c30-0f21abfeeee0">
+                <propertyInstance
+                  Id="8fc44c3e-1765-4476-9cf0-1e06f4bc13ad"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="43892ebe-0b95-4ed3-984e-e0636ba52966">
+                <propertyInstance
+                  Id="858c9e60-79cf-4842-9813-055968e59875"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9729b397-529a-438e-80b0-42c0197c0021">
+                <propertyInstance
+                  Id="03f65c6e-b5fc-4313-95ac-21acf81ba798"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="2a7e6b3d-7866-4b98-9778-71cece79d864">
+            <interfaceMoniker
+              Id="5f7046db-f8d1-469c-a836-62a9776c63f8"
+              LastKnownName="IObserver"
+              LastKnownLocation="Package2_2021.uml" />
+          </interfaceRealization>
+          <interfaceRealization
+            Id="978f1a83-f79b-45c2-91e6-a95c966f8692">
+            <interfaceMoniker
+              Id="e9205bb2-1e34-4e0d-bc54-1792e264364b"
+              LastKnownName="IWidget"
+              LastKnownLocation="Package2_2021.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="52e9fba1-41c2-434e-8dd6-088d13294eaa"
+            name="_tv"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ed985aa7-4006-496b-892c-213aae71c8ee"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DTvWidget Member%3D_tv"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4a208215-7181-45ac-b8e3-3fe247e39ed3"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3763b936-9f33-4ea1-9722-493eeb5c6d0c">
+                    <propertyInstance
+                      Id="ebd071f7-7084-4b16-9484-858f708ab320"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4fd6e91e-d521-43b8-88e0-6c887cb5bb09">
+                    <propertyInstance
+                      Id="d4a4e3fc-9556-4ab2-b620-cbc972bcb6b6"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="669d2b9d-37c1-42af-959d-72a490c44ba5">
+                    <propertyInstance
+                      Id="8e79f22f-e10e-4bb3-b37e-f6366974ee01"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0681df0a-3a0c-4595-b10a-bf70167160a4">
+                    <propertyInstance
+                      Id="8f24e5c8-6a6c-4894-925d-ec4292525855"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eab5fed1-5fed-4bc8-9020-fafdd6acb553">
+                    <propertyInstance
+                      Id="d3bd14e5-1ce6-4457-b7e8-c815e4d12a01"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="900d2d11-4eeb-4c1a-ad4a-53ed0a8f2fa9"
+            name="_subject"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3a970fde-d6af-4142-be78-c63d671777bb"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DTvWidget Member%3D_subject"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="191a3b94-ea34-4211-8454-19be37463e8b"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed8a7d7a-689c-44d0-97ec-b3ba601de3a0">
+                    <propertyInstance
+                      Id="de67eca8-59cb-4751-b9c5-ce7877bf72bb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cab7f79e-e352-4bda-9bd7-5b3db1459c12">
+                    <propertyInstance
+                      Id="97ea6daa-b279-4a39-bc0f-614b80f2bd82"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a02e959-0932-4ec7-beb3-8cf9148a6bb3">
+                    <propertyInstance
+                      Id="c77f0459-6aec-4420-ae37-31a0c087e8ee"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48ec1c93-22fe-4c28-a52d-9576805dae2a">
+                    <propertyInstance
+                      Id="1ea216e9-14cf-485f-b7a7-1dfc20c2bab1"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95ffdc67-4bff-4eaa-9238-5e4836faf94a">
+                    <propertyInstance
+                      Id="bcd0e45b-8793-4d36-8e4b-da79515d146c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="929d5165-151b-4261-8b7a-a889d0954b8f"
+                LastKnownName="ISubject"
+                LastKnownLocation="Package1_2021.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="91922bbd-6eee-4592-92b2-ecff73e77e06"
+            name="TvWidget"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="abc04f8c-ff88-496d-aefc-2373389e7e8e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DTvWidget Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.News Type%3DISubject)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e787d1e9-21fc-4be2-b10f-8cfa52388228"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c447745-c7c6-4c6f-9e61-9f172ed8795d">
+                    <propertyInstance
+                      Id="c4380aa2-0492-4bca-bd73-440ab51da343"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4e4ec70-5a79-4de5-98ef-e31445ab7dd0">
+                    <propertyInstance
+                      Id="35bf5d6c-46d7-413c-abd5-9ca0fecd9803"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b1b192b-a9c6-49db-992f-c67b0833dd9c">
+                    <propertyInstance
+                      Id="8759ffa3-739c-4a45-ad8a-938734d02587"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d680fa8d-f881-475a-9418-c97097643641">
+                    <propertyInstance
+                      Id="b07e7e26-f744-41cf-a6ac-c649d5631cec"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64f01844-5c77-434a-992e-41bac89d55fb">
+                    <propertyInstance
+                      Id="97896616-4f84-4bdb-85c7-2271f9b0c7a9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b31306ac-dfc8-4d7c-81b0-fdaf91cb409e">
+                    <propertyInstance
+                      Id="debf86fa-b116-447a-bc21-94983b90ca84"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="56c9715e-a273-4511-a9ec-69a511b5b589"
+                  name="subject"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="23373529-f350-4955-aedd-b4884e6b147c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DTvWidget Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.News Type%3DISubject)]) ParameterIdentifier%3Dsubject"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="929d5165-151b-4261-8b7a-a889d0954b8f"
+                      LastKnownName="ISubject"
+                      LastKnownLocation="Package1_2021.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3bd98413-0c2b-41c4-86b7-92b3d335d767"
+            name="Update"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9abd05f5-2ffa-4153-90e9-0bbaa3c46a6a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DTvWidget Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3ff7a6b6-5667-4d78-897e-bde336c67126"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57c84e3f-7af5-431a-aa72-6dcb2fd7c3f8">
+                    <propertyInstance
+                      Id="1b441231-f17f-49f6-bed7-481f836230e6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af6616f4-4c09-475e-8930-0a1100d03cd5">
+                    <propertyInstance
+                      Id="73aa631f-87b2-4617-96ae-405527c00690"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e072f4b9-fd1a-43f3-9c3e-8a285101ae9a">
+                    <propertyInstance
+                      Id="8ab62d6b-fc08-45d2-9a1a-a829294ea071"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2bbef67a-1f58-4af0-983e-0a1c2c4f3b13">
+                    <propertyInstance
+                      Id="60fcf105-ceda-4252-a2b7-5cf8eeaf8847"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6a75c7c-20d1-4923-9ca3-3170f5668877">
+                    <propertyInstance
+                      Id="d7bf0204-432c-48da-b89f-9d0eec3cfa48"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e4f72e7-ac0a-4620-9711-e051f53cd579">
+                    <propertyInstance
+                      Id="9f328b05-c2a4-4f5d-8aec-13ddf8731409"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="52d70ce8-0e80-4279-8dc2-fd86e7b5b9b3"
+                  name="twitter"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="adfe319a-1b45-4c11-a812-1a4da3c7c98a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DTvWidget Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dtwitter"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d2335ba1-875b-46ae-ad5b-670df87ed857"
+                  name="lenta"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="cbf08e54-d75b-440e-bfac-401aacd96f22"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DTvWidget Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dlenta"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3e43d70c-f959-4df5-8316-fc786d46227c"
+                  name="tv"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c9208411-8195-495d-9131-3e1088e42947"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DTvWidget Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dtv"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="55954eb1-4953-472c-b5c3-aa363d32d539"
+            name="Display"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b6f20691-1a3b-485b-9ad3-24ea67bbab64"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DTvWidget Member%3DDisplay"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8c3864b7-816e-4858-aced-63f1f2f57d41"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fdee2107-448f-4d96-a6b2-5362413b3533">
+                    <propertyInstance
+                      Id="8921bfe9-c30c-4ea2-8c30-f7f83e60156a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff12ffc9-30b8-45cd-818a-fef821ef6a16">
+                    <propertyInstance
+                      Id="e6724707-6302-4081-8cfd-3be35ed4df95"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40069267-e6b3-4fb4-a7d6-2283697bc7c8">
+                    <propertyInstance
+                      Id="4bc84fde-c3b9-45de-bbdf-4fd7bec966e0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82c788cc-f9bd-4062-853a-88c95a4f4485">
+                    <propertyInstance
+                      Id="009bf4f1-c159-4527-bbbd-c1fba06604c5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f72a2b6-e9df-4409-853a-11a633bc5b46">
+                    <propertyInstance
+                      Id="40670865-091d-4427-adf4-5363bef3fdd9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95de1ff1-0ea2-492e-a6ef-d28635846713">
+                    <propertyInstance
+                      Id="322045b5-2259-4fcf-acd5-5a44104b2107"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="f78870c3-41f7-4c34-8441-09b8dccc2b14"
+            name="Unsubscribe"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ed155e12-3dd5-4b3e-86f5-15e8dff6f26a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DTvWidget Member%3DUnsubscribe"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="29135d20-e3a4-4611-a9d7-7a6a01f253f6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9007edb-97bf-4b1c-8109-1b36ce5afaa7">
+                    <propertyInstance
+                      Id="fb389641-ea72-4dde-a0a1-6c180a8b8ba7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0fc6f463-3351-49a6-8298-99b78937152a">
+                    <propertyInstance
+                      Id="974a8f6f-1aa9-402a-8526-3617741d5ec9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="90f70df7-68b6-428b-ad0f-3cac5bf68294">
+                    <propertyInstance
+                      Id="218f68ef-ae85-4174-b3e6-6b7bdc89e0c4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c38ebf7d-c9ec-4ad3-aee4-72e780b30640">
+                    <propertyInstance
+                      Id="0c667330-b440-4b7e-bf26-220a5b2c47ae"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="072e0baf-db36-4c5f-ba2f-dc24e0716c28">
+                    <propertyInstance
+                      Id="77cabaa0-3253-48d0-b1a9-e6806f965ddf"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="148d139b-5497-4a60-8352-ebb0e023f6c0">
+                    <propertyInstance
+                      Id="9692a57d-3bf8-40ab-affc-e16baef20e26"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="17354f4e-87cf-4027-aefb-43e720955bf9"
+        name="TwitterWidget"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="8b532df3-5f5a-4e9d-a983-fb6037af02ac"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DTwitterWidget"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b8615459-3fa3-4caf-afd7-d65af8e8f2e1"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="86a2b14d-48bc-4227-8969-f1b9c729ccd5">
+                <propertyInstance
+                  Id="78bb403d-089c-48d6-890d-9d262b5f3228"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ff1b5ba3-b0eb-4d2b-bd68-1f272da9291c">
+                <propertyInstance
+                  Id="9de867c7-e2f9-4fc1-a38c-9c946900a97a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a1d1a139-9a74-4d18-881d-b21d2bac6e69">
+                <propertyInstance
+                  Id="5c0bb6be-2ab1-489c-8596-376d5fd43264"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="80b92252-4edc-4edf-9a41-fb6667ca7b60">
+                <propertyInstance
+                  Id="34ecb4c6-e713-4e0d-b649-59b03c84feea"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cac8ffcc-7f86-4334-80ff-a16b07d28ef8">
+                <propertyInstance
+                  Id="16cefce0-9c2e-450e-8eef-91bf4d717dbe"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="5e10b22f-9b7e-4d68-bbf0-951deefde582">
+            <interfaceMoniker
+              Id="5f7046db-f8d1-469c-a836-62a9776c63f8"
+              LastKnownName="IObserver"
+              LastKnownLocation="Package2_2021.uml" />
+          </interfaceRealization>
+          <interfaceRealization
+            Id="6a9c759f-43e0-450c-b795-fe08014dad71">
+            <interfaceMoniker
+              Id="e9205bb2-1e34-4e0d-bc54-1792e264364b"
+              LastKnownName="IWidget"
+              LastKnownLocation="Package2_2021.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="c13aafd4-60a4-4601-8e89-88383cddddfe"
+            name="_twitter"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0394a5c3-9816-4a11-a811-f108a782b67a"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DTwitterWidget Member%3D_twitter"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dadb1574-9bce-4bc3-85dc-55ca68435ce6"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="710e30a4-8efa-4443-9bc5-652c8e23de19">
+                    <propertyInstance
+                      Id="f9a61826-9935-490d-942f-342963049462"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f9a00de-766f-41f7-af61-46cea918abea">
+                    <propertyInstance
+                      Id="058135e6-1a25-490f-95d0-482f30b447a8"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf49ba8c-82b6-453c-8e9c-9eb46625aa4e">
+                    <propertyInstance
+                      Id="d8aeb629-39b4-49f7-a2b0-cab1e74e5779"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ffa37e4f-e177-4bfe-a2a6-ebac61b517b9">
+                    <propertyInstance
+                      Id="d7b1221b-9b24-4e26-9efc-95233fcc5b7a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7df54031-e14c-4128-943a-1abb6f9f3efe">
+                    <propertyInstance
+                      Id="01fdebfb-78d1-4a60-920e-40fe3950b53b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="0750498c-06e7-4b2c-8c4d-7e927d6c2a9b"
+            name="_subject"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="aa1a0d85-2399-4ae8-9e0b-dd78bf0bd7c3"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DTwitterWidget Member%3D_subject"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c08a99a9-7130-4d14-bad5-2fc687bed1fa"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21bb06e7-b1e7-4929-ad3d-e4a3018d7b2f">
+                    <propertyInstance
+                      Id="9d9a4de7-3aae-4388-aa7d-16a68137aee7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c504ef98-c82e-464a-9cde-3aad336f738b">
+                    <propertyInstance
+                      Id="c99f7f3b-d8bb-479d-827c-dded54ac9e27"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="87b449cc-c1aa-484c-bccf-0843ca670f29">
+                    <propertyInstance
+                      Id="ab2cadaf-bf72-47cb-958f-eb7659488635"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c26562ad-9222-4d82-bf1d-eea6e8306805">
+                    <propertyInstance
+                      Id="dcd2a590-a3ec-4e00-84e7-b806a1a709da"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da172092-d8ed-440a-ab90-dbeb85eaacbe">
+                    <propertyInstance
+                      Id="899b6de1-7472-46f8-9d2c-e672bffef28a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="929d5165-151b-4261-8b7a-a889d0954b8f"
+                LastKnownName="ISubject"
+                LastKnownLocation="Package1_2021.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="0fecdf7a-43b6-45b8-91f4-a6cab424053f"
+            name="TwitterWidget"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="758018ec-19d1-432b-9fc6-21044a09e897"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DTwitterWidget Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.News Type%3DISubject)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="52884392-4106-4a19-9029-011affa13f77"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1addf2cc-4fc0-4f90-8a32-e9aa9f709429">
+                    <propertyInstance
+                      Id="03d9ae75-ae75-4068-8953-41d05489db47"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6731063-cfdd-4cda-9aa2-c2a784b8119d">
+                    <propertyInstance
+                      Id="3ba38740-de10-442d-9623-e5fb7e83053b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72144993-c969-440b-8a57-55ef45d7fbc6">
+                    <propertyInstance
+                      Id="1d099192-ae26-4bfd-88fb-fc1d8799a3c9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da08b8da-709d-475b-b847-c77ed70db690">
+                    <propertyInstance
+                      Id="122327bc-7ab5-466c-a07a-d0155026dc9d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="06a9aada-90c4-41dd-827b-5d4a8f3ae44a">
+                    <propertyInstance
+                      Id="b03e0ddf-6f12-49f8-bdaf-471c218411ce"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b48e65c4-6149-401c-bff5-d54d86d7f3b7">
+                    <propertyInstance
+                      Id="9b2bdb54-c573-47a4-92b0-73b5d5e4b597"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d10c0826-191a-4750-b825-ea23cd281355"
+                  name="subject"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="60d82837-9580-4af9-8e7f-07f41a8eb9b2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DTwitterWidget Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.News Type%3DISubject)]) ParameterIdentifier%3Dsubject"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="929d5165-151b-4261-8b7a-a889d0954b8f"
+                      LastKnownName="ISubject"
+                      LastKnownLocation="Package1_2021.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d28de087-0209-4980-81a9-acbd65d2e3db"
+            name="Update"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a5f93552-d6ca-4ee3-88d2-42b55f74384a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DTwitterWidget Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a333776f-8cc4-48af-933a-6465f43d3e54"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4614dff7-73a3-4447-b6a9-b97e7ba937a4">
+                    <propertyInstance
+                      Id="65605c06-4bc9-46ae-810e-853f37cdff5c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba761735-7de6-4e30-9c83-be8e0c291ef1">
+                    <propertyInstance
+                      Id="3d73b69f-b5dd-4495-96d8-73bd75e7c912"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fcb4e54c-08f1-4ca9-a60b-ce28eef0139a">
+                    <propertyInstance
+                      Id="90aca049-fdd6-4b1f-a95c-84d7ee5e26da"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57ed37ae-69cb-485a-9624-e715d5dd5bb8">
+                    <propertyInstance
+                      Id="7e099dbc-d462-4340-bdcd-e5a448712810"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82c1ce46-9905-4d74-af4a-bc2fa5881881">
+                    <propertyInstance
+                      Id="3cb4723c-d597-497f-9a7a-56a7e676e845"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2eb273c4-d5f3-459c-b37a-bcf476a95fbd">
+                    <propertyInstance
+                      Id="a2126fd2-87c6-478e-8013-7296b3c8ff42"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4e618ccf-4b48-4bae-974e-a14316f04148"
+                  name="twitter"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="bdda8f2a-6ebc-4630-ba03-30dd518857cf"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DTwitterWidget Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dtwitter"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="37d0c03a-5498-44b0-800f-c4a248256903"
+                  name="lenta"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="61545870-a660-4f59-9bf6-0a4986845ad7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DTwitterWidget Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dlenta"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b4ab412b-f399-4786-91c7-f8cb07424522"
+                  name="tv"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="32dfe2c1-87a5-4d2c-956c-f53ca7bc9809"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DTwitterWidget Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dtv"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="66110388-9a3c-486e-a490-5c33fad54bf3"
+            name="Display"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="45d8d580-e937-4158-806f-67fd604af710"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DTwitterWidget Member%3DDisplay"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0353f711-7539-4da7-b83d-9652d3a53994"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8eaab73-c4bc-4273-a9e9-4a5b8d87a0d6">
+                    <propertyInstance
+                      Id="ae39be81-416b-4e6e-b17b-61e9413df316"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db2cadf3-ca66-4488-a3e9-e88819b1a391">
+                    <propertyInstance
+                      Id="10a34165-d77e-466a-bb99-5bfcd925171e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b55215b-a69f-4c6a-a561-a70ffa3da1ca">
+                    <propertyInstance
+                      Id="f263b69b-18da-4188-9bf7-48f37c2da652"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb01e789-b1fe-45a5-b29b-8cf3fa8b9dba">
+                    <propertyInstance
+                      Id="0069ada1-f3d1-4ecf-840e-04710db104f1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02a3520f-8da5-4f8a-890f-acf02ff5caea">
+                    <propertyInstance
+                      Id="1bc948e6-b955-4584-8d38-d7ee3cef12d4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2ea5f09-65a4-48e1-9e70-3c67bef4d0eb">
+                    <propertyInstance
+                      Id="1168d1d5-d0bf-44f5-8eb6-537e87680a21"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="153cb420-1509-4988-b2c9-9c31a9bc5a01"
+            name="Unsubscribe"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="90a7e89f-9c09-43d3-a064-88c717cf1232"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FObserverSampleApp%2Fbin%2FDebug%2FObserverSampleApp.exe Namespace%3DObserverSampleApp.Widgets Type%3DTwitterWidget Member%3DUnsubscribe"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a6c341cd-6e85-418a-9464-9797e9ec5986"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d2089e4-b408-4427-a5ef-37e42b229527">
+                    <propertyInstance
+                      Id="00fe0ee9-6de9-439b-b85b-a681a8e18004"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d6f3fe08-af95-486a-975e-2387610db4cc">
+                    <propertyInstance
+                      Id="6b0b6b2f-7f84-4215-9366-c3e8c49723e3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c14e4b25-0185-4b29-9efb-6ad86568b8d2">
+                    <propertyInstance
+                      Id="852b8a7c-ad9d-49a2-8c53-e1693574d1f9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81129e24-445d-46db-bd91-15f7d3f30b70">
+                    <propertyInstance
+                      Id="bda703e6-fe93-4d4e-aff1-a62f9693004e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9924605b-880c-42e7-85f0-adff322e8ab0">
+                    <propertyInstance
+                      Id="54a31dc7-b94a-4b29-8a06-60071857bffb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a998f8f-7510-4dbf-8ac6-f3962e5ca469">
+                    <propertyInstance
+                      Id="a0be1fd4-a2eb-4a29-8457-c3442373f401"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

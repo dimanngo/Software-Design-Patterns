@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="3643e114-9d40-45df-ba09-e75576f08460"
+  name="Fly"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="8112d3ac-e301-4b16-aeb9-a2c2009655df"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DStrategySampleApp.Fly"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="61462376-ae15-458a-b613-d7415946fee9"
+        name="IFlyable"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="eb75c56c-d315-48f6-b6a0-2fadf0da50dc"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FStrategySampleApp%2Fbin%2FDebug%2FStrategySampleApp.exe Namespace%3DStrategySampleApp.Fly Type%3DIFlyable"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b8d73c80-59f8-4304-bee0-83edc1b5d2fb"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="28842d5b-1523-423a-8dba-7f6cbedbe82a">
+                <propertyInstance
+                  Id="fce60aa4-5c1a-4c32-85ca-7fd10cdf08bf"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b115996b-bb51-4882-9971-612cf38cd809">
+                <propertyInstance
+                  Id="11747b2e-560a-4519-a518-97f1db880927"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="76439b8b-db89-40ea-829e-18479c58bb64">
+                <propertyInstance
+                  Id="75b3bdf0-4ce9-49f5-b6d7-71209d4310fe"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e95e7cf6-49b5-437c-8112-dae6af4402d5">
+                <propertyInstance
+                  Id="a6aeb5dd-b8ac-44c6-93d7-728fe603ff09"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="5be53d53-7dae-4e01-8ba3-910b76011f31"
+            name="Fly"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="de8a3b97-e882-42e0-8751-8144b256b6f6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FStrategySampleApp%2Fbin%2FDebug%2FStrategySampleApp.exe Namespace%3DStrategySampleApp.Fly Type%3DIFlyable Member%3DFly"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bb39ce6a-f29a-4f01-a053-349c0d6d291f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3ef8798-744e-4e1a-830a-1d2dc4378d26">
+                    <propertyInstance
+                      Id="c8622654-efea-40a8-9d83-fdfea332cd4d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1b2199a-df61-4172-943e-e1013cfe49c7">
+                    <propertyInstance
+                      Id="1adec528-26ff-44c2-a811-5dbea5da12da"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4a54c28-a96c-47de-9e4c-df5d5d060093">
+                    <propertyInstance
+                      Id="47ae9a3b-0f07-49d4-9a73-97763ccc4f82"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3ba0f17-a226-4580-953c-e8395740565a">
+                    <propertyInstance
+                      Id="0e907689-556a-437d-abef-58e197aadb47"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="569414f9-acfe-4cb5-b54d-877fc31b7126">
+                    <propertyInstance
+                      Id="6034d8a3-c8f7-46d5-992e-61d0ecce5c7e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2b587c9-530b-4edc-85f4-af5b20b85f97">
+                    <propertyInstance
+                      Id="69b20428-998f-4b79-b5c8-1a0b861cd982"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b1ab1ced-157a-4a2e-b760-c7f72ff0935b"
+        name="FlyWithWings"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="90c25100-24f1-4865-93da-563a7f51d698"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FStrategySampleApp%2Fbin%2FDebug%2FStrategySampleApp.exe Namespace%3DStrategySampleApp.Fly Type%3DFlyWithWings"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="57d34f77-0bf9-4361-bca0-26aa01754b8d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a19bdfd6-ed81-4ef6-a378-dab1fd8d39ef">
+                <propertyInstance
+                  Id="5176e085-ad02-4dc1-85d6-a839f78b785d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="515cb1b8-e5ef-4977-b281-5d1e597ee5d1">
+                <propertyInstance
+                  Id="8a6e269d-3f48-43b0-80a4-53ca51a06f42"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="262eaa00-d2fe-4e3f-a7f2-80cb941ec396">
+                <propertyInstance
+                  Id="45b146bd-53ff-4395-aba8-ea40ce8eb221"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0ba8c047-3c1e-484f-a7a2-09f3ef9997d9">
+                <propertyInstance
+                  Id="e283278c-606a-40ff-a3d2-9e53d41582a0"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="33cf0087-7ad2-4aae-8c4b-a2b825d9edfe">
+                <propertyInstance
+                  Id="247b7ab7-c245-4f85-bf6e-4775617bc9f9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="2ef5ebdf-53c8-4dbd-9d0a-d60a87d7c5a6">
+            <interfaceMoniker
+              Id="61462376-ae15-458a-b613-d7415946fee9"
+              LastKnownName="IFlyable"
+              LastKnownLocation="Package2_1438.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="f90c0406-c065-4a20-bc74-82b74637b2b4"
+            name="Fly"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="18809a6f-31fb-4224-9f37-31807d2658f8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FStrategySampleApp%2Fbin%2FDebug%2FStrategySampleApp.exe Namespace%3DStrategySampleApp.Fly Type%3DFlyWithWings Member%3DFly"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="80c54466-6966-47f5-a77b-289f81f2a10c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88db9943-5bf4-48d2-9fad-7b14b5fbbf14">
+                    <propertyInstance
+                      Id="ab0e5033-100f-4e2e-8bfd-07bdfd09a553"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f01be402-4a12-4081-90df-47c2bfb3157a">
+                    <propertyInstance
+                      Id="24cc3976-6cfc-4890-bc21-5aff7ef0d58a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48ea844e-0981-4a66-b44d-3eb1bf3d5beb">
+                    <propertyInstance
+                      Id="577ed5db-d780-4ea7-aca1-a6dc1404b496"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7dc7846-b6d5-4c86-8351-ad60bd5fac70">
+                    <propertyInstance
+                      Id="1b7e808c-f924-4303-b204-e130960a90a7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1d12442-32e1-4aef-80b8-87fa28057031">
+                    <propertyInstance
+                      Id="9f47ff4e-283d-4f72-9c69-93e3913fb7df"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3da49995-36ec-4b1a-aee2-6a2ab6071d3f">
+                    <propertyInstance
+                      Id="f06fe48a-f8cb-4593-9c58-ad9f00d6cbe2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="00296fe1-d685-48d0-b44e-0a9f03ae28a3"
+            name="FlyWithWings"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="70d65440-47c3-4858-95d8-b14dced9e760"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FStrategySampleApp%2Fbin%2FDebug%2FStrategySampleApp.exe Namespace%3DStrategySampleApp.Fly Type%3DFlyWithWings Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="08ce9bcc-9299-4768-81db-1409efa797b5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c91057e2-89dc-48ee-bcdd-7f4267328c96">
+                    <propertyInstance
+                      Id="e3322c7d-d9e1-483e-96d2-4ff896ab203e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7160ceb-d552-4641-a6bb-21a565a82dbf">
+                    <propertyInstance
+                      Id="b88f66a8-a0de-495b-8948-b9e15d2a78c8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a151338c-d6dd-4a0e-aefc-fda20f707724">
+                    <propertyInstance
+                      Id="16f5435c-8d59-4ce9-992f-2e0ddb6330cd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9a2675b-f1b2-4c16-bdc3-14e67fea54d5">
+                    <propertyInstance
+                      Id="e4750488-5e5d-4d16-bcca-4c99a6cccae9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04e97d0c-50b9-4e12-a13a-a8e02cbb7daa">
+                    <propertyInstance
+                      Id="0d50df72-38af-45a9-aaaa-99b53831dc5a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="280b0c43-096f-4c85-9ec8-e34edfe92758">
+                    <propertyInstance
+                      Id="36d0a6a9-ac08-4e7c-9eda-11ea9391b500"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d8ada205-6f1e-453c-b3cb-ba5fd534bbd9"
+        name="NoFLy"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7c2767fa-d62a-49d5-b196-e1db7b3d3c1f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FStrategySampleApp%2Fbin%2FDebug%2FStrategySampleApp.exe Namespace%3DStrategySampleApp.Fly Type%3DNoFLy"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="28370698-18fe-4b88-98ed-8b05a347b620"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cf8bd701-fbd0-4bd9-aa14-2b1fcece96b0">
+                <propertyInstance
+                  Id="df253092-beed-40d1-8b35-755011ba659d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8f2e7d26-8101-4f4f-b116-417a812d6a3c">
+                <propertyInstance
+                  Id="63a14638-63b4-4a44-8d57-5a616d90aeb5"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cef7a83b-bdac-4ece-90da-8c1535439ebe">
+                <propertyInstance
+                  Id="9edcb6ee-775c-4363-9288-8f07383211f9"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="176f5054-56b2-41c4-98a1-1056870efb86">
+                <propertyInstance
+                  Id="058c8692-7978-4fc8-afcb-754680e16b26"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="66fd8c1d-67e9-4a3a-85a8-7355d47691ab">
+                <propertyInstance
+                  Id="4630e524-8e00-4d6b-aa38-d10b13d86957"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="3811f42c-50b7-4df7-8000-1d7622819206">
+            <interfaceMoniker
+              Id="61462376-ae15-458a-b613-d7415946fee9"
+              LastKnownName="IFlyable"
+              LastKnownLocation="Package2_1438.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="2514d256-2ff0-4a1e-84a1-c71759772b0b"
+            name="Fly"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="89925c24-d414-4047-8a0b-f1594bc85dce"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FStrategySampleApp%2Fbin%2FDebug%2FStrategySampleApp.exe Namespace%3DStrategySampleApp.Fly Type%3DNoFLy Member%3DFly"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="22c7f22e-3496-4843-a94e-5279cd3bcb81"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5fcf36b-f945-43c6-97bd-0812f45c8805">
+                    <propertyInstance
+                      Id="63a56583-11fc-484a-b460-48d4a9286353"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0d168c9-4257-4024-afc6-9132d419d58a">
+                    <propertyInstance
+                      Id="0d4dd765-9f55-48e4-a275-240cfc853392"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a835c06b-4dfe-4e69-bfe4-b13ce3222163">
+                    <propertyInstance
+                      Id="87278fa6-45fd-45e7-a5ca-d6e4387915b2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e378b713-d860-45d5-b628-00fe447434b1">
+                    <propertyInstance
+                      Id="a8a3cc54-d390-4a8f-a57f-85dc665a6c9b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d0c6ed7-bcf2-46c0-87fd-70e04551cfb6">
+                    <propertyInstance
+                      Id="52f42830-b96d-4fd1-9e48-e0368ffbd673"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59785939-26ab-4f78-a42e-657be289f12c">
+                    <propertyInstance
+                      Id="7dc3e0e5-a28a-48b0-bfd9-621f5df76a3a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="f1452b3d-beb1-4930-80f3-5fd2e2721ca7"
+            name="NoFLy"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="bcb3113a-38ba-4da8-82b0-648954a2888e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FStrategySampleApp%2Fbin%2FDebug%2FStrategySampleApp.exe Namespace%3DStrategySampleApp.Fly Type%3DNoFLy Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="33276ba0-dbf4-4ac9-80da-e9f96cb40510"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38fccc3a-5aec-42ac-8286-03eb6ebdaf2a">
+                    <propertyInstance
+                      Id="969618cc-23f0-410f-8f6a-bf81ef28308f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c1a6aa1-2b7d-429c-acbd-b0fc4d553fcd">
+                    <propertyInstance
+                      Id="09402e66-e02e-4460-8a19-8363ab344cf5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="49da2db0-3b74-42df-8c8b-809b97ee61db">
+                    <propertyInstance
+                      Id="187a4f86-dfc2-4273-9676-1e742fc0c8db"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc25085d-2fa3-49a6-ad03-353fececdd58">
+                    <propertyInstance
+                      Id="7397ab41-3beb-4353-8eb9-eb07a2798e02"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a55e1ce8-3e67-4401-9aaa-00b238114da6">
+                    <propertyInstance
+                      Id="55496a00-830b-4675-918d-698f3cb552dc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07d5247c-116b-452e-ac0f-35645d99e554">
+                    <propertyInstance
+                      Id="165a9312-4c37-464f-8e00-38a99b3d1f7b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

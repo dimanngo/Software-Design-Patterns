@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{07af2a45-b459-4926-8b9e-35c1eee662ed}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>ModelingProject</Name>
+    <RootNamespace>ModelingProject</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Content Include="ModelDefinition\Package1_1438.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_2021.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_2025.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_2144.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_1438.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_2021.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_2025.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_2144.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_1438.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_2021.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package4_2021.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package5_2021.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1438.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_2021.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_2025.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_2144.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UML Class Diagrams\DecoratorSampleApp.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UML Class Diagrams\DecoratorSampleApp.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>UML Class Diagrams\DecoratorSampleApp.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="UML Class Diagrams\ObserverSampleApp.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UML Class Diagrams\ObserverSampleApp.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>UML Class Diagrams\ObserverSampleApp.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="UML Class Diagrams\ObserverSampleApp_Events.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UML Class Diagrams\ObserverSampleApp_Events.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>UML Class Diagrams\ObserverSampleApp_Events.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="UML Class Diagrams\StrategySampleApp.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UML Class Diagrams\StrategySampleApp.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>UML Class Diagrams\StrategySampleApp.classdiagram</DependentUpon>
+    </Content>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ModelDefinition\ModelingProject.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="UML Class Diagrams" />
+  </ItemGroup>
+</Project>

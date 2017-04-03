@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategySampleApp", "StrategySampleApp\StrategySampleApp.csproj", "{A07BA889-9B13-4C95-B065-361EA4893DC3}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject", "ModelingProject\ModelingProject.modelproj", "{07AF2A45-B459-4926-8B9E-35C1EEE662ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverSampleApp", "ObserverSampleApp\ObserverSampleApp.csproj", "{9D16896B-0808-480F-9BAF-7DB4DC16E0F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverSampleApp_Events", "ObserverSampleApp_Events\ObserverSampleApp_Events.csproj", "{6EF2E11B-3DB7-44FC-836F-B2FAA4FB81C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorSampleApp", "DecoratorSampleApp\DecoratorSampleApp.csproj", "{3FD38245-D04E-4E2F-88B9-0A5776165C5B}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dimagolodiuk.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = StrategySampleApp\\StrategySampleApp.csproj
+		SccProjectName1 = StrategySampleApp
+		SccLocalPath1 = StrategySampleApp
+		SccProjectUniqueName2 = ModelingProject\\ModelingProject.modelproj
+		SccProjectName2 = ModelingProject
+		SccLocalPath2 = ModelingProject
+		SccProjectUniqueName3 = ObserverSampleApp\\ObserverSampleApp.csproj
+		SccProjectName3 = ObserverSampleApp
+		SccLocalPath3 = ObserverSampleApp
+		SccProjectUniqueName4 = ObserverSampleApp_Events\\ObserverSampleApp_Events.csproj
+		SccProjectName4 = ObserverSampleApp_Events
+		SccLocalPath4 = ObserverSampleApp_Events
+		SccProjectUniqueName5 = DecoratorSampleApp\\DecoratorSampleApp.csproj
+		SccProjectName5 = DecoratorSampleApp
+		SccLocalPath5 = DecoratorSampleApp
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A07BA889-9B13-4C95-B065-361EA4893DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07BA889-9B13-4C95-B065-361EA4893DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07BA889-9B13-4C95-B065-361EA4893DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07BA889-9B13-4C95-B065-361EA4893DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07AF2A45-B459-4926-8B9E-35C1EEE662ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07AF2A45-B459-4926-8B9E-35C1EEE662ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07AF2A45-B459-4926-8B9E-35C1EEE662ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07AF2A45-B459-4926-8B9E-35C1EEE662ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D16896B-0808-480F-9BAF-7DB4DC16E0F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D16896B-0808-480F-9BAF-7DB4DC16E0F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D16896B-0808-480F-9BAF-7DB4DC16E0F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D16896B-0808-480F-9BAF-7DB4DC16E0F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EF2E11B-3DB7-44FC-836F-B2FAA4FB81C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF2E11B-3DB7-44FC-836F-B2FAA4FB81C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF2E11B-3DB7-44FC-836F-B2FAA4FB81C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF2E11B-3DB7-44FC-836F-B2FAA4FB81C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FD38245-D04E-4E2F-88B9-0A5776165C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD38245-D04E-4E2F-88B9-0A5776165C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD38245-D04E-4E2F-88B9-0A5776165C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD38245-D04E-4E2F-88B9-0A5776165C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

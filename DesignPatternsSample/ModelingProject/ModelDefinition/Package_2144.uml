@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="40fbef88-0af0-431a-8718-3b6676a05b4a"
+  name="DecoratorSampleApp"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="80d2904a-2736-4c3b-a3ac-93a6735dcdfb"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DDecoratorSampleApp"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="0a69a6b4-bf3d-47fe-8312-b6ca0723b344"
+        LastKnownName="Beverage"
+        LastKnownLocation="Package1_2144.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="47e8491e-018f-4df1-9796-4cfc4acc69ea"
+        LastKnownName="Decorator"
+        LastKnownLocation="Package2_2144.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

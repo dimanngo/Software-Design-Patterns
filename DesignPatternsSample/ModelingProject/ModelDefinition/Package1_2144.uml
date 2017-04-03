@@ -1,0 +1,944 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="0a69a6b4-bf3d-47fe-8312-b6ca0723b344"
+  name="Beverage"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="2a16ad27-5d12-45a7-a887-26bec77b32c6"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DDecoratorSampleApp.Beverage"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="6b87fc70-8b9a-4b6e-b742-8eff9c54de18"
+        name="BeverageBase"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a2a8378e-07a6-4a80-acaf-ba1338e7308e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FDecoratorSampleApp%2Fbin%2FDebug%2FDecoratorSampleApp.exe Namespace%3DDecoratorSampleApp.Beverage Type%3DBeverageBase"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3ca6e89a-3a9a-4386-9c64-b29767755e01"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a3db15c6-c974-42bd-94e4-c15adb6197f5">
+                <propertyInstance
+                  Id="ca36e9b4-e3fc-467c-b9be-367051d94413"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6963ef92-d10e-41dc-88eb-7608a28e6295">
+                <propertyInstance
+                  Id="a24bc1f9-e795-48d0-b02c-e33b378e93e7"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="de2db4a4-ec1a-45f0-8afe-e5d4c8a1f6ac">
+                <propertyInstance
+                  Id="05bcc032-7623-417d-89bd-8729adbcfd59"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bb7ce1f6-3546-4b1a-900c-b8f91ea827c4">
+                <propertyInstance
+                  Id="2d148ea8-4a15-48b7-bcc6-46952fe2cdaa"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5598f42d-4395-43ab-910e-583cb1689d12">
+                <propertyInstance
+                  Id="d0178f0e-2cd5-44c6-97f2-eddd61ac535e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="dc5cc522-6251-4f34-b4cf-9791639e07f5"
+            name="Description"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9a2e7127-498a-4ae8-a4e8-04b7e67922e7"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FDecoratorSampleApp%2Fbin%2FDebug%2FDecoratorSampleApp.exe Namespace%3DDecoratorSampleApp.Beverage Type%3DBeverageBase Member%3DDescription"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b7cc9064-ca3d-438f-be53-186c1fb78ee5"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a66e9913-c7c2-4f14-9f03-88f04fd27ca8">
+                    <propertyInstance
+                      Id="3ffad714-f118-4121-8bf2-9bdee54a72a1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7cb6337-f29b-40b5-930c-3cad245fee55">
+                    <propertyInstance
+                      Id="e50997b2-f9c4-410d-8556-7197a90cb77d"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8cd22249-28a1-42c0-af4d-7eab75e115df">
+                    <propertyInstance
+                      Id="bdbbe11e-e036-4772-a4e8-80cdd164082e"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29accad9-f5e5-4f12-8dfb-d31f9618ef08">
+                    <propertyInstance
+                      Id="2af624bf-9ca1-49ab-9898-7aec657f41de"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c4fda43f-7e58-4cd5-a7b6-402961847ecf">
+                    <propertyInstance
+                      Id="ac547792-0cf9-49d8-9ab6-9aa24deda33d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3b48519-9f3a-4cca-9835-98bc72b69f5e">
+                    <propertyInstance
+                      Id="4d694fae-29b7-4353-b329-eccbf09b17f8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da01339c-ae36-4b1d-9dfb-f760d0abefe8">
+                    <propertyInstance
+                      Id="cd889d9e-c5f6-418c-bed8-632da0164926"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="93b2bdaf-ab34-45f0-a641-d702cf70d993"
+            name="GetCost"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d93b5946-5a41-4e5d-8970-ba3a5f531dc3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FDecoratorSampleApp%2Fbin%2FDebug%2FDecoratorSampleApp.exe Namespace%3DDecoratorSampleApp.Beverage Type%3DBeverageBase Member%3DGetCost"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a00e412a-c472-4930-ad3d-14d1f091c154"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9633393e-bc30-49ea-b48a-eabf44dacc35">
+                    <propertyInstance
+                      Id="b49eb7d6-366f-48dc-acc3-d73aa638f98b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="69d93969-ff5a-4d80-b5e7-2e03ff70da72">
+                    <propertyInstance
+                      Id="40e0dbdf-0c81-49c9-9542-5d3809e586f3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3d2b9c4-ce13-4ca2-9714-7061b9fc72d8">
+                    <propertyInstance
+                      Id="ffee68e8-cd1c-4085-a435-1c0c1fb6f73e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f07d476-2b64-488d-aec7-fb0abe132a71">
+                    <propertyInstance
+                      Id="651e4c75-5cc8-48f0-9735-df0502ae35da"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="499944ca-57af-4753-bc28-359722a98a40">
+                    <propertyInstance
+                      Id="3bc3be91-a060-4e7c-bebc-8570de9886f5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f49eb47-56d1-47d3-a67d-4140901e5f66">
+                    <propertyInstance
+                      Id="462f7180-8710-48d6-a87a-74e2d9e48a2d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="98f66e80-9c10-4a6c-ba3a-a2fcb1a51eab"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="82db0656-7058-449b-9a53-68fbb23ad06f"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package3_2021.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="cfd1da8d-a91e-4263-8a0b-1166b2c1ed06"
+            name="BeverageBase"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="683e3b5f-0988-4c65-8f6c-14076441dace"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FDecoratorSampleApp%2Fbin%2FDebug%2FDecoratorSampleApp.exe Namespace%3DDecoratorSampleApp.Beverage Type%3DBeverageBase Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b2d4408a-e66e-477b-97ec-498902ea9294"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a0ad440-2402-4f75-81c0-920c3ff1afb3">
+                    <propertyInstance
+                      Id="e15b59d8-77c0-4c10-b0d4-c5c7de7db94e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d71dfb9-aecd-4c60-a69f-782bc612afe6">
+                    <propertyInstance
+                      Id="c7ae3f68-cfb4-42c2-965d-de18da2159a7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18bb70c6-3ccc-40dd-8e17-65b2b0ae425c">
+                    <propertyInstance
+                      Id="d39b67c1-303b-40a2-91c0-580677efa446"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb997588-3771-4d4d-95a2-e31cde9311f5">
+                    <propertyInstance
+                      Id="1ccf84cf-46ff-4802-9eb5-bcec71e0d1fc"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae720a7c-8566-4dfa-ac27-f6a1bbf326d7">
+                    <propertyInstance
+                      Id="6e06a221-d2bf-43fc-8c14-95d9288b2342"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10619152-46aa-45dd-98e9-e9d3b6d140a6">
+                    <propertyInstance
+                      Id="989bacd4-6446-4881-a81f-e2cb38816842"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e5d5bc7d-9724-41dd-ac79-822cba707be1"
+        name="BlackTea"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="65d55b6c-c599-4fc1-8196-feb353d13445"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FDecoratorSampleApp%2Fbin%2FDebug%2FDecoratorSampleApp.exe Namespace%3DDecoratorSampleApp.Beverage Type%3DBlackTea"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="68f54c19-2f6a-4efb-a5f4-5b27996f9795"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="debcbcd1-3aa7-4738-bd98-76231fd984a0">
+                <propertyInstance
+                  Id="f11aa84f-fc0a-4724-baf6-4cf67cbd60a3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="219f1dc1-fa32-4fcc-8930-d08fd87bfef7">
+                <propertyInstance
+                  Id="9a5e5577-a9f6-4ebb-a39b-e35225d702b3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="80166df7-84fe-479d-a180-1bac883a6c0b">
+                <propertyInstance
+                  Id="9ac18097-640d-45c4-bde6-9ef013e4451a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eb5e8d36-dbd3-4ba1-9faf-2dd55e99ee3c">
+                <propertyInstance
+                  Id="7b811abd-a0ce-43d2-89f3-aed007332d30"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="66bce2ce-876d-44bc-880a-b20bd811dca9">
+                <propertyInstance
+                  Id="7534af55-eeab-4bd4-9ed3-54074fe046e6"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="ba43c09f-c56b-46cc-a636-9184cac97c8b"
+            isSubstitutable="false">
+            <classMoniker
+              Id="6b87fc70-8b9a-4b6e-b742-8eff9c54de18"
+              LastKnownName="BeverageBase"
+              LastKnownLocation="Package1_2144.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="f1bd706d-fe1c-4c8e-a189-12bb7b9ebe0d"
+            name="GetCost"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6c52acc1-a6b8-42d7-aa17-49c46478baba"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FDecoratorSampleApp%2Fbin%2FDebug%2FDecoratorSampleApp.exe Namespace%3DDecoratorSampleApp.Beverage Type%3DBlackTea Member%3DGetCost"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d8a05f92-6e3f-45d6-a86b-91d2feefbab9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae3a7393-885b-4ed2-bdbc-1af8c696b83e">
+                    <propertyInstance
+                      Id="a52e1dc8-a85b-4a0c-a98a-b7e793737eba"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba9c6fef-4705-4ea9-ad5f-e35d050ea281">
+                    <propertyInstance
+                      Id="29d7994e-67f6-4a6e-92f5-c917f802a54e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="32d693df-a997-41b5-aa0d-291c4d2a5246">
+                    <propertyInstance
+                      Id="6f39ba41-ccdc-4042-bbf8-d67a33b01b98"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e0c3ffc-676c-4de9-ab4c-5f30958ca06f">
+                    <propertyInstance
+                      Id="5f44722a-3755-4486-904c-b6af903c0663"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1229af54-ffb5-43d3-bc14-65cf92744ab4">
+                    <propertyInstance
+                      Id="0062caae-0daa-43cd-81e1-1c0ddd2a8c6e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02ad7375-5f3d-45fd-9bcc-b371762a237e">
+                    <propertyInstance
+                      Id="fa690c75-10a2-4935-95cb-b0a9e913e07b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7047e03c-69c9-494d-b15a-606fbb256c3a"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="82db0656-7058-449b-9a53-68fbb23ad06f"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package3_2021.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="95f95a96-d413-49aa-9fd7-b3826512405c"
+            name="BlackTea"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8f6d7e9f-7d12-45c3-ae12-6736bc333937"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FDecoratorSampleApp%2Fbin%2FDebug%2FDecoratorSampleApp.exe Namespace%3DDecoratorSampleApp.Beverage Type%3DBlackTea Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="316da4bc-4c78-44c0-a0ec-9f427e2c3ca6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1fde2ade-27d7-474e-92cc-229b9b17801e">
+                    <propertyInstance
+                      Id="87921f6d-feda-47d4-9534-6aa586414a6a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fadcf822-d837-4169-862f-afff68d0dce9">
+                    <propertyInstance
+                      Id="6b4634f9-0b19-4b8b-8f2b-854aea65041d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9262ed2b-043f-4412-99c1-f17732171440">
+                    <propertyInstance
+                      Id="e09220f9-62ac-4ec0-9967-f9296f93048c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c446bd45-ff07-458f-88c4-d95d447c65af">
+                    <propertyInstance
+                      Id="f0abc4bc-bfb8-426a-9376-2f08bcc6c200"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="df794fa2-4691-4b94-91ca-600aee2e5aea">
+                    <propertyInstance
+                      Id="6553a496-a30d-42ed-90f4-3ed3ece935db"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a74d0bb4-4fc9-4612-a46c-983636337c2f">
+                    <propertyInstance
+                      Id="3545c67d-818a-4e7b-99b8-724f8a67f6bd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d0cae67e-4812-439e-80f9-706050b7d30a"
+        name="Espresso"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="8f66ef73-0030-4433-b363-5f070ab93f35"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FDecoratorSampleApp%2Fbin%2FDebug%2FDecoratorSampleApp.exe Namespace%3DDecoratorSampleApp.Beverage Type%3DEspresso"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="8a6c6a00-1edf-464a-bd79-5fe667674937"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5624f65b-d076-400e-b450-039eac4aee19">
+                <propertyInstance
+                  Id="3db470a5-a556-4ee5-983a-7659ec3cf86d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d3523faa-e626-4af7-b8e8-926511e8a43a">
+                <propertyInstance
+                  Id="476ac715-1437-4418-8381-ab5ca35cfc48"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ae45c1ba-993f-4ff9-8c43-e614f6be084f">
+                <propertyInstance
+                  Id="d45f3c59-de9e-4ac0-8598-edf613643e3c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="476bdc81-14be-4d7d-aa5b-c4faf9740976">
+                <propertyInstance
+                  Id="3353f560-f98d-44a4-b306-54576f2de0af"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2231d4b2-9d17-4047-8306-82745afbf6e1">
+                <propertyInstance
+                  Id="31a99d77-36ee-4ce2-86be-6b512de55c73"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="fd40be93-2dfb-4986-894f-2cba556b7f27"
+            isSubstitutable="false">
+            <classMoniker
+              Id="6b87fc70-8b9a-4b6e-b742-8eff9c54de18"
+              LastKnownName="BeverageBase"
+              LastKnownLocation="Package1_2144.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="8904296b-36a5-4c05-9188-22a17365d03a"
+            name="GetCost"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ff21c34d-1bd7-46ae-9d02-3a702e10dee8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FDecoratorSampleApp%2Fbin%2FDebug%2FDecoratorSampleApp.exe Namespace%3DDecoratorSampleApp.Beverage Type%3DEspresso Member%3DGetCost"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c491a7e3-6928-406d-be40-f07df6eebb3a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="145cd44e-dc0d-4c40-aea6-21ff781a7499">
+                    <propertyInstance
+                      Id="1a4b20de-6b63-4cbd-a6d4-d311a3fba07b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59e51cf7-6dd1-44a7-b76d-429f0a50e685">
+                    <propertyInstance
+                      Id="55092f47-9bbf-476d-8153-0acb0b36f52c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8c86b02-85da-45d1-96ee-e095fb9fbeae">
+                    <propertyInstance
+                      Id="af444b5e-7c74-4825-bbf2-0796381ad780"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f112c2be-17a1-4540-8aae-6559de89cb05">
+                    <propertyInstance
+                      Id="4d1d0811-c589-4728-8516-cb0d83a08a7d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6dd3add4-fe7f-4bb4-87c5-75440d0c028e">
+                    <propertyInstance
+                      Id="2b99542e-5174-4cff-9c29-e311b3b624dd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="daf37520-5de5-4386-8368-41f63a27d891">
+                    <propertyInstance
+                      Id="6f72699f-da81-407c-9316-951f8e3c2917"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="413b0f1e-5ced-4c67-afd2-1ff5b25aae98"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="82db0656-7058-449b-9a53-68fbb23ad06f"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package3_2021.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9525f38e-b910-4c75-bf0f-2f7ef4190429"
+            name="Espresso"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="66ee59e0-f797-4c25-9fc4-30f71664e841"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FDecoratorSampleApp%2Fbin%2FDebug%2FDecoratorSampleApp.exe Namespace%3DDecoratorSampleApp.Beverage Type%3DEspresso Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="32f2c40a-0e2b-46b6-ac42-40350f942d68"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39a371af-eb8d-47ee-ac59-8d74f1f3b36e">
+                    <propertyInstance
+                      Id="50abb3ab-ab5e-4080-a637-37ca8390b471"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e0d4320-ed8c-4b6b-9c4e-db738fbec7eb">
+                    <propertyInstance
+                      Id="2984daef-3e02-4c89-b476-41ceb1a4a265"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="946c1f6d-e2f7-47b5-a61d-ef464e2a6d19">
+                    <propertyInstance
+                      Id="0f626cfd-b8b2-42f3-925b-462c2d337c6e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d759954-3a9b-46f5-a925-5055fa84c3e5">
+                    <propertyInstance
+                      Id="b972733c-eee3-4f1d-996f-8b147068b80d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d5d7808-6f6b-4349-815f-6da49aa5c354">
+                    <propertyInstance
+                      Id="f9a50c96-5814-4ca6-9546-c65992badb39"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3264e118-4bc6-468c-842b-de1042bb7a9d">
+                    <propertyInstance
+                      Id="1f50cc2f-e342-401b-a353-5d748e3b8b6b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="2d173d51-7cdf-4e08-a98e-7b8f05a1c9c2"
+        name="GreenTea"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="b0f3d1b1-fe7f-4ecc-a7fb-63dc36d90576"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FDecoratorSampleApp%2Fbin%2FDebug%2FDecoratorSampleApp.exe Namespace%3DDecoratorSampleApp.Beverage Type%3DGreenTea"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="cdf67730-acff-4c06-a97c-c92821161dfb"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="acfc3688-3ee0-4b2c-b305-ce021fa7e48b">
+                <propertyInstance
+                  Id="3af86fc0-28c9-4824-9382-85b374b42d14"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="54d3fd05-4242-4e41-a744-0fdc147a5069">
+                <propertyInstance
+                  Id="86eff4e5-4ca1-4102-b6e6-a68193eb341c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="974b52a1-abe6-404f-af4d-d9e50452806b">
+                <propertyInstance
+                  Id="09226b79-7bf5-4b0e-b5de-18fd48d3e247"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b22915e2-8fb9-40b2-988a-ee4965e2e2c7">
+                <propertyInstance
+                  Id="27cc6390-bf91-4276-bc95-b830fd8e7093"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d65e2a76-4227-4d7f-8a5e-b2116cf3853f">
+                <propertyInstance
+                  Id="4512a5cf-5115-40d4-8152-86ae7749eeef"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="e877233c-029f-4209-abae-d4df7d5498e5"
+            isSubstitutable="false">
+            <classMoniker
+              Id="6b87fc70-8b9a-4b6e-b742-8eff9c54de18"
+              LastKnownName="BeverageBase"
+              LastKnownLocation="Package1_2144.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="1ddf128d-7a63-42dc-83b5-d2778678797b"
+            name="GetCost"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f1d201a5-326f-49f5-a950-e3c7cc01cfb2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FDecoratorSampleApp%2Fbin%2FDebug%2FDecoratorSampleApp.exe Namespace%3DDecoratorSampleApp.Beverage Type%3DGreenTea Member%3DGetCost"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="abf46b73-1047-4a2e-abd6-98c87e748cc1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d93dbe0-ec76-420e-a2d9-e2ab032ea539">
+                    <propertyInstance
+                      Id="1203af2f-f33f-4f1b-b79b-8d11b25d65bb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04b82d45-fbeb-45e7-b217-a998f2298626">
+                    <propertyInstance
+                      Id="cebb6015-a18c-45f5-b364-ca0708ab33fc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca019d75-bd83-40b9-956b-2aa4534ec2ec">
+                    <propertyInstance
+                      Id="7d229d54-a986-43e2-9982-7ed444daed71"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd49b1fd-95e0-4eb2-bdef-c00bab7155e0">
+                    <propertyInstance
+                      Id="de46d445-aff6-4572-8227-e00824919ca5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ad28cef-aa07-470c-8a55-81db372d27b5">
+                    <propertyInstance
+                      Id="180b7e8f-9acd-4184-a2fd-70acd031a3e7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b45ceda-3a1b-4b93-beea-1c83d8d5c6ca">
+                    <propertyInstance
+                      Id="0ff8db76-eec3-402b-825a-ecacdbdc3388"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="53d02c8e-aecb-4f63-b609-eaf3f88a82ac"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="82db0656-7058-449b-9a53-68fbb23ad06f"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package3_2021.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5025998c-9456-4f4b-861c-8aff3ccebdc3"
+            name="GreenTea"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4caa9a52-aca2-4d33-9191-10fc5a4a77d6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FDecoratorSampleApp%2Fbin%2FDebug%2FDecoratorSampleApp.exe Namespace%3DDecoratorSampleApp.Beverage Type%3DGreenTea Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8ccf4744-42ec-40f5-b7ec-01633b69f1e8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e7786d46-5911-48b9-9713-dcd71eaa5c7a">
+                    <propertyInstance
+                      Id="c7d0ce98-b5df-4cac-a331-519421aed880"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97b9a5ce-48eb-41e2-aa94-5a23050fa6f5">
+                    <propertyInstance
+                      Id="68802c50-cca3-4bb5-a9dc-775b4a010e10"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c4092251-931b-4828-b9d8-90641e913dd0">
+                    <propertyInstance
+                      Id="e25ee251-4cdc-4c59-a673-6e79bb81fe92"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8db8a5fa-3fc4-49d2-ab5b-d9611c3ecf2d">
+                    <propertyInstance
+                      Id="d9cfe3ec-6663-4b79-b6b5-e2b24a336f06"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3eb56fb6-3b3e-42f0-862f-53c4735340d6">
+                    <propertyInstance
+                      Id="5b2a3000-f502-4782-a7d3-c6550ebe4aba"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7de3038-42a8-49d8-8f01-432547545d4c">
+                    <propertyInstance
+                      Id="bbf074f1-6129-44dc-8ef8-02abe11be724"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

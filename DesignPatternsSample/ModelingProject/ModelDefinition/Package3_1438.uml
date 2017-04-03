@@ -1,0 +1,737 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="7657a4a5-7cdd-40f2-9217-74d06d5c1bec"
+  name="Quack"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="05cce904-72df-4e30-a6ee-5eb066282d50"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DStrategySampleApp.Quack"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="5938aad9-77cc-4030-a3ad-48afb387a68f"
+        name="IQuackable"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="e10ae716-0115-4540-a1d8-1a85ee16ab0f"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FStrategySampleApp%2Fbin%2FDebug%2FStrategySampleApp.exe Namespace%3DStrategySampleApp.Quack Type%3DIQuackable"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b0ef6903-5a9e-4502-99de-498c060a69b0"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cc08a6cb-a1a8-4df1-a605-70e4418fdc3e">
+                <propertyInstance
+                  Id="0e2b2cd1-12bf-401a-9c82-098a08184866"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f7114a79-d720-4894-bc5f-3b83cbc8b6fb">
+                <propertyInstance
+                  Id="1152c2a6-4d01-4c4a-8466-c113218bef5d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0acde178-e3bb-4135-a710-885b7e7bccdf">
+                <propertyInstance
+                  Id="42e88c5b-6503-44dc-b095-16614ae7ca64"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f39bc2e8-29ec-4c1e-9945-40af80a06a0b">
+                <propertyInstance
+                  Id="c2bc2d92-2031-4b55-97c3-003a428fb5ea"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="eb42d4f0-8b2b-4a75-aa91-2afd1c6e36b7"
+            name="Quack"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5e0696a7-daf9-4376-863c-73c5d6b5549c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FStrategySampleApp%2Fbin%2FDebug%2FStrategySampleApp.exe Namespace%3DStrategySampleApp.Quack Type%3DIQuackable Member%3DQuack"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b74e619e-ef23-4a40-8b4e-c0a644b93db1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3b0ce13-a03b-453d-adbc-a2dd5e9ce482">
+                    <propertyInstance
+                      Id="6d17fe21-cb84-404a-aaf4-2f9d7fbe51a6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="08f91022-3fce-496e-9b4f-6c7bd5b361b6">
+                    <propertyInstance
+                      Id="c021da21-c8f5-4727-8797-1aafe65d73d6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f438caab-4d9d-426a-89f6-af259c614aa7">
+                    <propertyInstance
+                      Id="99edfdac-8537-4b67-a641-df412b0ead9e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3507252-cc66-487b-9b30-1239015ae920">
+                    <propertyInstance
+                      Id="fca6bfdc-d177-44b3-a816-3e7754616392"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="529b9a18-c56e-4d71-8b8d-42b35df4f42c">
+                    <propertyInstance
+                      Id="e6a4e7ee-763c-4b56-976d-e7c586d336a1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b535932-c588-4ccb-b886-fc5bfecdc6ee">
+                    <propertyInstance
+                      Id="38e8f709-fccf-4a52-ba26-15c3f854f494"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4249c389-ec8e-4949-b7db-8414f9bf65d9"
+        name="ExoticQuack"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="536fd433-5303-4f14-9e9a-7da6d01f5544"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FStrategySampleApp%2Fbin%2FDebug%2FStrategySampleApp.exe Namespace%3DStrategySampleApp.Quack Type%3DExoticQuack"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d87f2efa-7127-47e7-924a-450746769f0c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4058c1c0-0687-4a32-86b6-013167764b51">
+                <propertyInstance
+                  Id="b1c14535-101d-4c35-80b1-8b049a0c8f76"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="01367328-1858-42df-a794-4900fc5caaec">
+                <propertyInstance
+                  Id="38aafaeb-7fb3-4bfb-8bcc-353ec9e953fa"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c27dce0f-cea8-45ed-8a5a-d5086fe0d593">
+                <propertyInstance
+                  Id="f60cd15f-5704-4baa-ba8d-e40ad55c12a4"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9e33c8e7-87e4-4143-be8a-e7016ef516a5">
+                <propertyInstance
+                  Id="d1b321b0-f1be-4e6d-8ef9-d8db1620d5e2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ec65773c-3497-458c-9ba0-c723d8c342b3">
+                <propertyInstance
+                  Id="88e4d0d7-f91c-4018-b9df-422a5058a184"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="48ee9d22-8ce7-4bca-ad85-a9c061b39a3c">
+            <interfaceMoniker
+              Id="5938aad9-77cc-4030-a3ad-48afb387a68f"
+              LastKnownName="IQuackable"
+              LastKnownLocation="Package3_1438.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="bb239efc-16f4-4d72-ab8e-17a31a9ea644"
+            name="Quack"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="513d5870-6ac6-443a-8205-6910f54b6922"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FStrategySampleApp%2Fbin%2FDebug%2FStrategySampleApp.exe Namespace%3DStrategySampleApp.Quack Type%3DExoticQuack Member%3DQuack"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6aa56bf4-2d2d-4361-9399-2d5354912fbb"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f8adc023-3438-408d-80e1-591a6f607c1a">
+                    <propertyInstance
+                      Id="ad53d3ad-6c85-4ccb-95ba-c2082f6242ce"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9dec945c-085e-4e86-bdec-c517e9cf2f11">
+                    <propertyInstance
+                      Id="3ecc114f-731c-40d1-b456-68ecf46fcfa2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb1298eb-963b-4418-ba8a-e73bd328dd22">
+                    <propertyInstance
+                      Id="97cb092e-5cd7-458d-9027-f694cf2dcb2c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9562955-bb34-48f0-b343-c2f7822e0326">
+                    <propertyInstance
+                      Id="5dabc46e-0343-4229-ab85-a8bbe899fbd8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d2f91d6-57f0-4214-b1e6-e302be0c9b02">
+                    <propertyInstance
+                      Id="de424a71-879a-4d82-b894-4ae5695cc241"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74f51392-0dfa-442b-bb1c-ca8ce6c679fb">
+                    <propertyInstance
+                      Id="8d7f3585-584a-4961-9b90-0738ae948b1a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="949d95fe-22f3-494b-b1b4-7c6683d9dab9"
+            name="ExoticQuack"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7da85604-aebd-4112-97f0-bcd7c8effa6c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FStrategySampleApp%2Fbin%2FDebug%2FStrategySampleApp.exe Namespace%3DStrategySampleApp.Quack Type%3DExoticQuack Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5aa4d91d-649f-4e41-b285-31b4aae619df"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b69ef29a-ddcd-4d8b-9888-3ba7ce4964e5">
+                    <propertyInstance
+                      Id="80eadc24-d329-4ea3-af66-cd98a880666a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="972f6605-808c-4680-b722-33d2a702a1a1">
+                    <propertyInstance
+                      Id="9831e7bf-a6b6-4824-bcee-c392bde1f429"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9480982-3164-4cb5-aad7-086ed6be619a">
+                    <propertyInstance
+                      Id="eba9f72e-f4fd-48a0-82b4-8754ade55676"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ae04651-2fad-4ee1-ad8f-6917c3c875a7">
+                    <propertyInstance
+                      Id="0761b985-63b1-4cf2-bcd8-39013f6fcbe8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e79bef54-314e-4f2f-9809-6cfa99915b64">
+                    <propertyInstance
+                      Id="8d13d15f-e267-456e-b514-f0306adc3a17"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d432063e-d9e7-4a5e-8bcf-87cdec623045">
+                    <propertyInstance
+                      Id="25230111-9ff0-4dae-b20f-3428902738c7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="2b93a7cb-8a84-4fa0-a511-1da06478df6f"
+        name="NoQuack"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="35fea22f-36ec-4cfa-aa72-3ccc845fb5a9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FStrategySampleApp%2Fbin%2FDebug%2FStrategySampleApp.exe Namespace%3DStrategySampleApp.Quack Type%3DNoQuack"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="eb09b585-982b-448a-99b4-65908c83f1f4"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6d119ab6-6af0-4812-870d-cf9e6c55413c">
+                <propertyInstance
+                  Id="0c61f73f-35df-41e0-8e08-aa8fd6d3cec5"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6cbafb4a-6d5e-48e5-9550-d02d996d745f">
+                <propertyInstance
+                  Id="dc986b03-6e74-42df-9ad0-36e518f7276c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="377139e7-13d3-40d7-abb8-52a14479fe96">
+                <propertyInstance
+                  Id="8f220baf-e3b0-4eb5-bee6-9df6c8a8e7b9"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f4f6472a-d457-4bfd-93da-c951a51ca137">
+                <propertyInstance
+                  Id="e29fa4c5-039a-433d-9f74-5efd6845171a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="91a9fe36-612a-44b6-80ba-788a28dbc09f">
+                <propertyInstance
+                  Id="2ff0e65d-5d60-4d66-81c2-b9379f0ed885"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="2d8c27bc-2847-4f64-a4b3-7fc50a0eb140">
+            <interfaceMoniker
+              Id="5938aad9-77cc-4030-a3ad-48afb387a68f"
+              LastKnownName="IQuackable"
+              LastKnownLocation="Package3_1438.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="1b3136de-d9d8-4483-a26d-65e4c65bf94c"
+            name="Quack"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="da903a14-2ec9-4487-88b8-816f8c44966f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FStrategySampleApp%2Fbin%2FDebug%2FStrategySampleApp.exe Namespace%3DStrategySampleApp.Quack Type%3DNoQuack Member%3DQuack"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="962af606-668b-4779-a897-fbf91683b741"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6a09b2a-503c-48fd-b219-c90c48def75b">
+                    <propertyInstance
+                      Id="ad1edd87-f96d-46a7-b33b-ff664b7f58c8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf630fcc-0ff4-4606-aaeb-54fb7e39fbe4">
+                    <propertyInstance
+                      Id="aa3d0c45-4de1-4730-92aa-1094b35c27b0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6993cfe6-9858-43b3-857e-c2d7e3e29cea">
+                    <propertyInstance
+                      Id="2a0da3af-3cf8-4b7e-ab55-506917944954"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="417fe976-6c3f-4e93-8687-01ce6303b005">
+                    <propertyInstance
+                      Id="808dfa57-000a-4033-a49a-1308d27d2389"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79c72272-c453-4782-a5d0-c7a611147cb5">
+                    <propertyInstance
+                      Id="291daf15-4d5e-49cd-afbc-cf8f4635efba"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58a657b3-419c-4ea5-a9a6-50ee79ddb314">
+                    <propertyInstance
+                      Id="c241eb60-8f6a-490b-95e1-48fb8df7e59d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="ff0cc7c5-8f6d-4d59-9b2d-3f473a49ba57"
+            name="NoQuack"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5b1dbc92-6167-4723-86c8-5a19763a075e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FStrategySampleApp%2Fbin%2FDebug%2FStrategySampleApp.exe Namespace%3DStrategySampleApp.Quack Type%3DNoQuack Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3db874ee-2564-45a8-a44b-7a7ebe186e0c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bbf4df4c-4694-48b0-a61b-d19c3adcc1e7">
+                    <propertyInstance
+                      Id="ad63cee1-235e-40e5-a9b3-b95560ca02bc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e40fab5-d475-4d5a-a89b-89fc0ab59780">
+                    <propertyInstance
+                      Id="8ee5b4c5-4a6a-4bf5-ba9b-4418341785f1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04480caf-2e9c-41ef-aa25-73da7c8dcd36">
+                    <propertyInstance
+                      Id="09e1c197-1604-40a3-80f7-0f429cef265b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a035bd8-469c-4f02-9a7c-d58140f81feb">
+                    <propertyInstance
+                      Id="cdf130cf-2a73-4d4b-8fa4-93326217952f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0fe0da0-1ec8-46a0-a267-f39f68f6bc48">
+                    <propertyInstance
+                      Id="69bfdf06-510c-40ef-88f8-1711751061e3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6da0791e-4367-43b9-aa34-590d2027e0e8">
+                    <propertyInstance
+                      Id="a1cdea79-9200-4783-b79b-c7f16b4a9bd3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="daba5b65-ff87-43eb-862b-6d7bc282680e"
+        name="SimpleQuack"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="91971465-df7a-47e0-a01b-5f776b810afb"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FStrategySampleApp%2Fbin%2FDebug%2FStrategySampleApp.exe Namespace%3DStrategySampleApp.Quack Type%3DSimpleQuack"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="bfefeab0-7632-4f41-8a00-8882c1e76ef3"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ece7adc5-fb7e-443c-9e75-e26d2bac6eda">
+                <propertyInstance
+                  Id="5c2df85e-6113-40ef-88f3-7085ba5cc65e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8fefa5c4-1d9b-4cbd-ab93-4d0de6c2a3b0">
+                <propertyInstance
+                  Id="efc20b6e-f4d0-4d21-a55c-df9c8f49e781"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8562f052-128a-4008-a109-fa594e23fc39">
+                <propertyInstance
+                  Id="d811c833-ff7a-4baf-85f5-79ccec68d80b"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="93e34cd2-fe3d-4c19-899d-bc85adfb6f02">
+                <propertyInstance
+                  Id="0eebec5a-d1db-447c-8b6c-bdb7540d8bc5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8b40745e-33e5-4734-8e45-d787171cabb3">
+                <propertyInstance
+                  Id="7f8cbec0-5855-4ee2-b167-61ade463f31c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="3b1a03bf-1f29-4532-a950-316c11cf947c">
+            <interfaceMoniker
+              Id="5938aad9-77cc-4030-a3ad-48afb387a68f"
+              LastKnownName="IQuackable"
+              LastKnownLocation="Package3_1438.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="4213dcb6-f056-4a1d-acaf-9d19f7322a9a"
+            name="Quack"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c477c486-76bc-4a92-b63c-f963cbc243b7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FStrategySampleApp%2Fbin%2FDebug%2FStrategySampleApp.exe Namespace%3DStrategySampleApp.Quack Type%3DSimpleQuack Member%3DQuack"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a7cc72f0-47b3-4e49-b816-0a5e1e40ba0d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1150efac-77c1-4d80-8958-1a4894e10ebc">
+                    <propertyInstance
+                      Id="833bd085-2d09-4543-a9d9-a569441439c0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd4134ac-d0fe-45f4-b992-a848874e4975">
+                    <propertyInstance
+                      Id="26ba3de6-2954-4ea0-ba71-c32873725519"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4211b27-0dc5-42f6-bd84-b44ddde21cf2">
+                    <propertyInstance
+                      Id="b1827293-6558-448b-9e5b-faa9f4f5f32e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="764e4542-1611-4781-8914-94b5a671bf68">
+                    <propertyInstance
+                      Id="3b46baf8-9306-4337-a380-6dff78664c58"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dbd50050-3333-41e0-8055-9bc53544882f">
+                    <propertyInstance
+                      Id="f0d1db0e-e362-44e4-a161-008705f95fd0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae2fb4e5-f10a-4e9d-84b8-d8640e7b836f">
+                    <propertyInstance
+                      Id="ada90cb4-0291-4850-9f29-77977e96ff5a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="d92903da-2012-40e5-b065-85015aa408b9"
+            name="SimpleQuack"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9806d43a-7138-4223-9080-6a4d703215f4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FWork%2FDevelopment%2FProjects%2FDG%2FDesignPatterns%2FDesignPatternsSample%2FStrategySampleApp%2Fbin%2FDebug%2FStrategySampleApp.exe Namespace%3DStrategySampleApp.Quack Type%3DSimpleQuack Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="971622bc-05d2-433a-a12f-e9a90e752c68"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11ea0103-891d-4fb8-8aab-5c7352259884">
+                    <propertyInstance
+                      Id="1e382435-d0e6-4717-bc29-f7a50a258d5c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3610945-3cf5-4360-b41a-e4669fcabdf0">
+                    <propertyInstance
+                      Id="9b7bd99c-252e-49e6-b6ae-58c33756bb15"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb5ecb08-f638-48ed-9ec3-4f27c674db7e">
+                    <propertyInstance
+                      Id="7a9146c0-03f8-4ebc-907e-ca72d8fab06f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b2ca41b-c7d6-4342-9d55-a984727a2636">
+                    <propertyInstance
+                      Id="40e9279d-ff55-4d50-afa5-94e3dc2e3cef"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1fe6b897-2adb-4da5-a659-389ca22f7eae">
+                    <propertyInstance
+                      Id="9bc34b8c-03ba-47f8-bc76-3a2fca8c3adc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="215d8b3b-2950-45c9-be9b-453459a4dd0a">
+                    <propertyInstance
+                      Id="2af797b3-3d88-4b96-9532-461f9158b054"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="42cf4d31-5ca7-4476-9514-36f55eb6cf53"
+        name="Class1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
