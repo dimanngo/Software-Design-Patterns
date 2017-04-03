@@ -11,6 +11,20 @@ namespace Standard
     {
         static void Main(string[] args)
         {
+            InitializeRepository(out Dictionary<int, string> repo);
+
+            if (repo.Count == 0)
+            {
+                Console.WriteLine("Warning! There are no implementations of Singleton design pattern.");
+                Console.ReadLine();
+                return;
+            }
+
+            Console.Write($"Select singleton pattern implementation (number from 1 to {repo.Count}). 1 - is default option. ");
+            Int32.TryParse(Console.ReadLine(), out int selectedOption);
+            selectedOption = repo.ContainsKey(selectedOption) ? selectedOption : 1;
+            Console.WriteLine($"Implementation '{repo[selectedOption]}' will be executed.");
+
             Console.Write("Enter the number of threads:");
             Int32.TryParse(Console.ReadLine(), out int countThreads);
 
@@ -24,6 +38,20 @@ namespace Standard
             }
 
             Console.ReadLine();
+        }
+
+        private static void InitializeRepository(out Dictionary<int, string> patternRepo)
+        {
+            patternRepo = new Dictionary<int, string>
+            {
+                { 1, typeof(Singleton).ToString()}
+            };
+
+            Console.WriteLine("Accessible Singleton Pattern implementations:");
+            foreach (KeyValuePair<int, string> item in patternRepo)
+            {
+                Console.WriteLine($"{item.Key} \t-\t{item.Value}");
+            }
         }
 
         private static void runSingleton(object state)
