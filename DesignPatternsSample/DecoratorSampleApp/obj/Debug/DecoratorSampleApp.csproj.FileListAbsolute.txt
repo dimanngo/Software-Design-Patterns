@@ -1,5 +1,0 @@
-C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\DecoratorSampleApp\bin\Debug\DecoratorSampleApp.exe.config
-C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\DecoratorSampleApp\bin\Debug\DecoratorSampleApp.exe
-C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\DecoratorSampleApp\bin\Debug\DecoratorSampleApp.pdb
-C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\DecoratorSampleApp\obj\Debug\DecoratorSampleApp.exe
-C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\DecoratorSampleApp\obj\Debug\DecoratorSampleApp.pdb

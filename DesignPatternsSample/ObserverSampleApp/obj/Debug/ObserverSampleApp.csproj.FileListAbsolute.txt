@@ -1,6 +1,0 @@
-C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\ObserverSampleApp\bin\Debug\ObserverSampleApp.exe.config
-C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\ObserverSampleApp\bin\Debug\ObserverSampleApp.exe
-C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\ObserverSampleApp\bin\Debug\ObserverSampleApp.pdb
-C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\ObserverSampleApp\obj\Debug\ObserverSampleApp.csprojResolveAssemblyReference.cache
-C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\ObserverSampleApp\obj\Debug\ObserverSampleApp.exe
-C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\ObserverSampleApp\obj\Debug\ObserverSampleApp.pdb
