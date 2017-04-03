@@ -1,0 +1,5 @@
+C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\ObserverSampleApp_Events\bin\Debug\ObserverSampleApp_Events.exe.config
+C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\ObserverSampleApp_Events\bin\Debug\ObserverSampleApp_Events.exe
+C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\ObserverSampleApp_Events\bin\Debug\ObserverSampleApp_Events.pdb
+C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\ObserverSampleApp_Events\obj\Debug\ObserverSampleApp_Events.exe
+C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\ObserverSampleApp_Events\obj\Debug\ObserverSampleApp_Events.pdb

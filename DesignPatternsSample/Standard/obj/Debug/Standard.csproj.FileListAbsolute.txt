@@ -1,0 +1,5 @@
+C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\Standard\bin\Debug\Standard.exe.config
+C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\Standard\bin\Debug\Standard.exe
+C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\Standard\bin\Debug\Standard.pdb
+C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\Standard\obj\Debug\Standard.exe
+C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\Standard\obj\Debug\Standard.pdb

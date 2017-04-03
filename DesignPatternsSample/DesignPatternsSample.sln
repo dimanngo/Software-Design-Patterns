@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategySampleApp", "StrategySampleApp\StrategySampleApp.csproj", "{A07BA889-9B13-4C95-B065-361EA4893DC3}"
 EndProject
@@ -13,28 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverSampleApp_Events", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorSampleApp", "DecoratorSampleApp\DecoratorSampleApp.csproj", "{3FD38245-D04E-4E2F-88B9-0A5776165C5B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton Design Pattern", "Singleton Design Pattern", "{1510FF04-588B-4374-8640-D5BB99C70066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Standard", "Standard\Standard.csproj", "{F38ECCCE-7DF4-4915-A3C0-16825BCA6FA2}"
+EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 6
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://dimagolodiuk.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = StrategySampleApp\\StrategySampleApp.csproj
-		SccProjectName1 = StrategySampleApp
-		SccLocalPath1 = StrategySampleApp
-		SccProjectUniqueName2 = ModelingProject\\ModelingProject.modelproj
-		SccProjectName2 = ModelingProject
-		SccLocalPath2 = ModelingProject
-		SccProjectUniqueName3 = ObserverSampleApp\\ObserverSampleApp.csproj
-		SccProjectName3 = ObserverSampleApp
-		SccLocalPath3 = ObserverSampleApp
-		SccProjectUniqueName4 = ObserverSampleApp_Events\\ObserverSampleApp_Events.csproj
-		SccProjectName4 = ObserverSampleApp_Events
-		SccLocalPath4 = ObserverSampleApp_Events
-		SccProjectUniqueName5 = DecoratorSampleApp\\DecoratorSampleApp.csproj
-		SccProjectName5 = DecoratorSampleApp
-		SccLocalPath5 = DecoratorSampleApp
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -60,8 +43,15 @@ Global
 		{3FD38245-D04E-4E2F-88B9-0A5776165C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FD38245-D04E-4E2F-88B9-0A5776165C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FD38245-D04E-4E2F-88B9-0A5776165C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F38ECCCE-7DF4-4915-A3C0-16825BCA6FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F38ECCCE-7DF4-4915-A3C0-16825BCA6FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F38ECCCE-7DF4-4915-A3C0-16825BCA6FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F38ECCCE-7DF4-4915-A3C0-16825BCA6FA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F38ECCCE-7DF4-4915-A3C0-16825BCA6FA2} = {1510FF04-588B-4374-8640-D5BB99C70066}
 	EndGlobalSection
 EndGlobal

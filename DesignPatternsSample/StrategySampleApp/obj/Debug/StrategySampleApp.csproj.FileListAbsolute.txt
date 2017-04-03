@@ -1,0 +1,6 @@
+C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\StrategySampleApp\bin\Debug\StrategySampleApp.exe.config
+C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\StrategySampleApp\bin\Debug\StrategySampleApp.exe
+C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\StrategySampleApp\bin\Debug\StrategySampleApp.pdb
+C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\StrategySampleApp\obj\Debug\StrategySampleApp.csprojResolveAssemblyReference.cache
+C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\StrategySampleApp\obj\Debug\StrategySampleApp.exe
+C:\Users\dmytro.golodiuk\Source\Repos\Software-Design-Patterns\DesignPatternsSample\StrategySampleApp\obj\Debug\StrategySampleApp.pdb
