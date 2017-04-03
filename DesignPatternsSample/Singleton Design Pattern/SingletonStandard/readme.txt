@@ -7,29 +7,3 @@
  * This method checks if an instance of the singleton class is available.
  * It creates an instance, if its not available; Otherwise, it returns the available instance.
  */
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Standard
-{
-    public class Singleton
-    {
-        private static Singleton instance;
-
-        private Singleton() { }
-
-        public static Singleton GetInstance()
-        {
-            if (instance == null)
-            {
-                instance = new Singleton();
-            }
-
-            return instance;
-        }
-    }
-}
