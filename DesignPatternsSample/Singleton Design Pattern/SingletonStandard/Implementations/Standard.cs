@@ -15,28 +15,28 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Standard
+namespace Singleton.Implementations
 {
-    public class Singleton
+    public class Standard
     {
-        private static Singleton instance;
+        private static Standard instance;
         public static int countInstances = 0;
 
-        private Singleton()
+        private Standard()
         {
             Interlocked.Increment(ref countInstances);
         }
 
-        ~Singleton()
+        ~Standard()
         {
             Interlocked.Decrement(ref countInstances);
         }
 
-        public static Singleton GetInstance()
+        public static Standard GetInstance()
         {
             if (instance == null)
             {
-                instance = new Singleton();
+                instance = new Standard();
             }
 
             return instance;

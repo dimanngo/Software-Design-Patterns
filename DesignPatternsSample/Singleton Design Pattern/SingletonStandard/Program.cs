@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Standard
+namespace Singleton
 {
     class Program
     {
@@ -44,7 +44,7 @@ namespace Standard
         {
             patternRepo = new Dictionary<int, string>
             {
-                { 1, typeof(Singleton).ToString()}
+                { 1, typeof(Singleton.Implementations.Standard).ToString()}
             };
 
             Console.WriteLine("Accessible Singleton Pattern implementations:");
@@ -56,8 +56,8 @@ namespace Standard
 
         private static void runSingleton(object state)
         {
-            var instance = Singleton.GetInstance();
-            Console.WriteLine($"Count of active instances: {Singleton.countInstances}");
+            var instance = Singleton.Implementations.Standard.GetInstance();
+            Console.WriteLine($"Count of active instances: {Singleton.Implementations.Standard.countInstances}");
         }
     }
 }

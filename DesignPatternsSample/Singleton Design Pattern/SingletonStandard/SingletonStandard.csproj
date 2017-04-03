@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{83A033AC-5035-4A26-A7CB-DE72E618BC8C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SingletonStandard</RootNamespace>
-    <AssemblyName>SingletonStandard</AssemblyName>
+    <RootNamespace>Singleton</RootNamespace>
+    <AssemblyName>Singleton</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Singleton.cs" />
+    <Compile Include="Implementations\Standard.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
