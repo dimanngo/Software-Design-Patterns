@@ -1,4 +1,13 @@
-﻿using System;
+﻿/* The standard singleton implementation code works fine in Single threaded environment.
+ * But in multithreaded environment, the GetInstance() code breaks.
+ * If two threads enter the if condition at the same time, then two instances of Singleton will be created.
+ * 
+ * We can synchronize the method. So that only one thread can access it at a time.
+ * In the below implementation, the thread locks out the shared object,
+ * and then checks whether or not the instance has been created before creating the instance.
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

@@ -1,4 +1,8 @@
-﻿using System;
+﻿/* Double checked locking
+ * In this approach, we first check if the instance is created. If not, we synchronize.
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
