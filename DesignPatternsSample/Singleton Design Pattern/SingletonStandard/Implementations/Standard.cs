@@ -17,10 +17,12 @@ using System.Threading.Tasks;
 
 namespace Singleton.Implementations
 {
-    public class Standard
+    public class Standard : ISingleton
     {
         private static Standard instance;
-        public static int countInstances = 0;
+        private static int countInstances = 0;
+
+        int ISingleton.CountInstances => countInstances;
 
         private Standard()
         {
@@ -32,7 +34,7 @@ namespace Singleton.Implementations
             Interlocked.Decrement(ref countInstances);
         }
 
-        public static Standard GetInstance()
+        public static ISingleton GetInstance()
         {
             if (instance == null)
             {

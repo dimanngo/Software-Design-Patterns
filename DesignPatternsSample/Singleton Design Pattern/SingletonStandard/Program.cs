@@ -34,7 +34,7 @@ namespace Singleton
 
             for (int i = 0; i < countThreads; i++)
             {
-                ThreadPool.QueueUserWorkItem(new WaitCallback(runSingleton), i);
+                ThreadPool.QueueUserWorkItem(new WaitCallback(runSingleton), repo[selectedOption]);
             }
 
             Console.ReadLine();
@@ -44,7 +44,8 @@ namespace Singleton
         {
             patternRepo = new Dictionary<int, string>
             {
-                { 1, typeof(Singleton.Implementations.Standard).ToString()}
+                { 1, typeof(Implementations.Standard).ToString()},
+                {2, typeof(Implementations.HandleMultithreading).ToString() }
             };
 
             Console.WriteLine("Accessible Singleton Pattern implementations:");
@@ -53,11 +54,13 @@ namespace Singleton
                 Console.WriteLine($"{item.Key} \t-\t{item.Value}");
             }
         }
-
-        private static void runSingleton(object state)
+        
+        private static void runSingleton(object singletonClassName)
         {
-            var instance = Singleton.Implementations.Standard.GetInstance();
-            Console.WriteLine($"Count of active instances: {Singleton.Implementations.Standard.countInstances}");
+            var type = Type.GetType(singletonClassName as string);
+            var method = type.GetMethod("GetInstance");
+            var instance = method.Invoke(null, new object[] { }) as Implementations.ISingleton;
+            Console.WriteLine($"Count of active instances: {instance.CountInstances}");
         }
     }
 }
