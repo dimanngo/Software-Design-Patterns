@@ -45,7 +45,8 @@ namespace Singleton
             patternRepo = new Dictionary<int, string>
             {
                 { 1, typeof(Implementations.Standard).ToString()},
-                {2, typeof(Implementations.HandleMultithreading).ToString() }
+                { 2, typeof(Implementations.HandleMultithreading).ToString() },
+                { 3, typeof(Implementations.HandleMultithreadingDblCheck).ToString() }
             };
 
             Console.WriteLine("Accessible Singleton Pattern implementations:");
