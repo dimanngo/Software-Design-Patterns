@@ -49,8 +49,7 @@ namespace Singleton
                 { 3, typeof(Implementations.HandleMultithreadingDblCheck).ToString() },
                 { 4, typeof(Implementations.EarlyInstanceCreation).ToString() },
                 { 5, typeof(Implementations.FullyLazyInstantiation).ToString() },
-                { 6, typeof(Implementations.GenericSingleton<int>).ToString() },
-                { 7, typeof(Implementations.LazySingleton).ToString() }
+                { 6, typeof(Implementations.LazySingleton).ToString() }
             };
 
             Console.WriteLine("Accessible Singleton Pattern implementations:");

@@ -23,6 +23,11 @@ namespace Singleton.Implementations
 
         private LazySingleton()
         {
+            if (lazyInstance != null && countInstances > 0)
+            {
+                throw new Exception("Cannot create singleton instance through reflection or something went wrong :(");
+            }
+
             Interlocked.Increment(ref countInstances);
         }
 

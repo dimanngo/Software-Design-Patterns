@@ -19,6 +19,11 @@ namespace Singleton.Implementations
 
         private HandleMultithreadingDblCheck()
         {
+            if (instance != null)
+            {
+                throw new Exception("Cannot create singleton instance through reflection or something went wrong :(");
+            }
+
             Interlocked.Increment(ref countInstances);
         }
 
